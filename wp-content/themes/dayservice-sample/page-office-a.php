@@ -11,7 +11,7 @@ get_header();
 <!-- ========================================
      Hero Section
 ======================================== -->
-<section class="office-hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<?php echo get_template_directory_uri(); ?>/assets/images/hero-office.jpg');">
+<section class="office-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/hero-office.jpg');">
     <div class="office-hero-content fade-in-up">
         <h1>サンプルデイサービスA</h1>
         <p>地域に根差した、温かく安心できる場所をご提供します。</p>

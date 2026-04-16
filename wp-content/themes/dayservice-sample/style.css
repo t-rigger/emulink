@@ -1059,9 +1059,7 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-primary-light);
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
-  background-blend-mode: overlay;
+  background-color: var(--color-base);
   background-size: cover;
   background-position: center;
   margin-top: -72px; /* Pull up to go under header */
