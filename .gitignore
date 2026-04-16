@@ -1,0 +1,14 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+*.log
+
+# Docker
+.env
+db_data/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="サンプル株式会社 - 笑顔があふれる、もうひとつの我が家。心を込めたおもてなしで、安心のデイサービスをお届けします。">
+    <?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+
+<!-- ========================================
+     Splash Screen
+======================================== -->
+<div id="splash-screen">
+    <div class="splash-logo">SAMPLE LOGO</div>
+    <div class="splash-tagline">笑顔があふれる、もうひとつの我が家。</div>
+</div>
+
+<!-- ========================================
+     Header
+======================================== -->
+<header class="site-header" id="site-header">
+    <div class="header-inner">
+        <!-- Logo -->
+        <div class="site-logo">
+            <a href="<?php echo esc_url(home_url('/')); ?>">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="#FFF7ED" stroke="#F97316" stroke-width="2"/>
+                    <path d="M14 26C14 26 16 22 20 22C24 22 26 26 26 26" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
+                    <circle cx="15" cy="17" r="2" fill="#F97316"/>
+                    <circle cx="25" cy="17" r="2" fill="#F97316"/>
+                    <path d="M12 12C12 12 14 10 16 12" stroke="#86EFAC" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M24 12C24 12 26 10 28 12" stroke="#86EFAC" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                サンプル株式会社
+            </a>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <button class="menu-toggle" aria-label="メニューを開く" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#news">お知らせ</a></li>
+                <li><a href="#features">私たちの特徴</a></li>
+                <li><a href="#office">事業所案内</a></li>
+                <li><a href="#greeting">代表挨拶</a></li>
+                <li><a href="#company">会社概要</a></li>
+                <li><a href="#contact" class="btn-contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
