@@ -50,7 +50,7 @@
                 <li><a href="#office">事業所案内</a></li>
                 <li><a href="#greeting">代表挨拶</a></li>
                 <li><a href="#company">会社概要</a></li>
-                <li><a href="#contact" class="btn-contact">お問い合わせ</a></li>
+                <li><a href="#office" class="btn-contact">お問い合わせ</a></li>
             </ul>
         </nav>
     </div>

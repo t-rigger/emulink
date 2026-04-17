@@ -24,7 +24,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Greeting</span>
             <h2>代表からのご挨拶</h2>
         </div>
 
@@ -67,7 +66,6 @@ get_header();
 <section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Overview</span>
             <h2>施設概要</h2>
         </div>
 
@@ -116,7 +114,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Schedule</span>
             <h2>1日の流れ</h2>
             <p>充実した一日をお過ごしいただけます</p>
         </div>
@@ -174,7 +171,6 @@ get_header();
 <section class="section section-alt" id="price">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Price</span>
             <h2>ご利用料金のご案内</h2>
         </div>
 
@@ -433,7 +429,6 @@ get_header();
 <section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Access</span>
             <h2>アクセス</h2>
         </div>
         
@@ -460,7 +455,6 @@ get_header();
 <section class="section section-alt" id="contact-form">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Contact</span>
             <h2>デイサービスとんぼへのお問い合わせ</h2>
             <p>見学や体験利用など、お気軽にご連絡ください</p>
         </div>

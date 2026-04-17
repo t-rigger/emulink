@@ -44,7 +44,6 @@ get_header();
 <section class="section section-alt" id="news">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">News</span>
             <h2>お知らせ</h2>
             <p>最新のお知らせをお届けします</p>
         </div>
@@ -96,7 +95,6 @@ get_header();
 <section class="section" id="features">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Our Strengths</span>
             <h2>私たちの特徴</h2>
             <p>サンプル株式会社が大切にしている3つのこと</p>
         </div>
@@ -148,7 +146,6 @@ get_header();
 <section class="section section-alt" id="office">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Offices</span>
             <h2>事業所案内</h2>
             <p>お気軽に見学・お問い合わせください</p>
         </div>
@@ -229,7 +226,6 @@ get_header();
 <section class="section" id="greeting">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Message</span>
             <h2>代表挨拶</h2>
         </div>
 
@@ -286,7 +282,6 @@ get_header();
 <section class="section section-alt" id="company">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Company</span>
             <h2>会社概要</h2>
         </div>
 

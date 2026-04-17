@@ -24,7 +24,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Greeting</span>
             <h2>施設長のご挨拶</h2>
         </div>
 
@@ -63,7 +62,6 @@ get_header();
 <section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Overview</span>
             <h2>施設概要</h2>
         </div>
 
@@ -112,7 +110,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Schedule</span>
             <h2>1日の流れ</h2>
             <p>ゆったりとした時間が流れる一日</p>
         </div>
@@ -170,7 +167,6 @@ get_header();
 <section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Documents</span>
             <h2>重要事項説明書・ご利用料金</h2>
             <p>詳しくは、下記PDFをご覧ください。</p>
         </div>
@@ -201,7 +197,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Access</span>
             <h2>アクセス</h2>
         </div>
         
@@ -224,7 +219,6 @@ get_header();
 <section class="section section-alt" id="contact-form">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label" style="color: #059669;">Contact</span>
             <h2>事業所Bへのお問い合わせ</h2>
             <p>見学や体験利用など、お気軽にご連絡ください</p>
         </div>
