@@ -169,32 +169,230 @@ get_header();
 </section>
 
 <!-- ========================================
-     Important Documents / Price Section
+     Price Section
 ======================================== -->
-<section class="section section-alt">
+<section class="section section-alt" id="price">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Documents</span>
-            <h2>重要事項説明書・ご利用料金</h2>
-            <p>詳しくは、下記PDFをご覧ください。</p>
+            <span class="section-label">Price</span>
+            <h2>ご利用料金のご案内</h2>
         </div>
 
-        <div class="pdf-download-card">
-            <div class="pdf-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="48" height="48">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                    <polyline points="14 2 14 8 20 8"/>
-                    <line x1="16" y1="13" x2="8" y2="13"/>
-                    <line x1="16" y1="17" x2="8" y2="17"/>
-                    <polyline points="10 9 9 9 8 9"/>
-                </svg>
+        <div class="price-content" style="max-width: 900px; margin: 0 auto;">
+            
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1rem;">1. 地域密着型通所介護サービス（1日あたり）</h3>
+            
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(1) 基本料金（1日あたりの利用料金：7〜8時間未満）</h4>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>要介護度</th>
+                            <th>単位数</th>
+                            <th>利用料金(全額)</th>
+                            <th>自己負担(1割)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>要介護1</td>
+                            <td>753 単位</td>
+                            <td>8,042 円</td>
+                            <td>804 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護2</td>
+                            <td>890 単位</td>
+                            <td>9,505 円</td>
+                            <td>951 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護3</td>
+                            <td>1,032 単位</td>
+                            <td>11,022 円</td>
+                            <td>1,102 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護4</td>
+                            <td>1,172 単位</td>
+                            <td>12,517 円</td>
+                            <td>1,252 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護5</td>
+                            <td>1,312 単位</td>
+                            <td>14,012 円</td>
+                            <td>1,401 円</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="pdf-info">
-                <a href="#" class="pdf-link" target="_blank" rel="noopener noreferrer">
-                    重要事項説明書・料金表 [PDF]
-                </a>
-                <span class="pdf-meta">改訂日：2025年2月</span>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 2.5rem;">
+                ※1単位＝10.68円（名古屋市地域加算を乗じた表示）で計算しています。<br>
+                ※2割負担の方は、1割負担額の2倍、3割負担の方は3倍となります。
+            </p>
+
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(2) 地域密着型通所介護 加算料金（1日あたり／1月あたり）</h4>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>加算項目</th>
+                            <th>単位数</th>
+                            <th>自己負担(1割)</th>
+                            <th>備考</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>入浴介助体制 (Ⅰ)（1日あたり）</td>
+                            <td>40 単位</td>
+                            <td>43 円</td>
+                            <td>入浴を行った日のみ算定</td>
+                        </tr>
+                        <tr>
+                            <td>個別機能訓練加算 (Ⅰ)イ（1日あたり）</td>
+                            <td>56 単位</td>
+                            <td>60 円</td>
+                            <td>機能訓練を行った日のみ算定</td>
+                        </tr>
+                        <tr>
+                            <td>個別機能訓練加算 (Ⅱ)（1月あたり）</td>
+                            <td>20 単位</td>
+                            <td>21 円</td>
+                            <td>月1回算定</td>
+                        </tr>
+                        <tr>
+                            <td>口腔機能向上加算 (Ⅱ)（1月あたり2回）</td>
+                            <td>160 単位</td>
+                            <td>171 円</td>
+                            <td>月2回まで算定</td>
+                        </tr>
+                        <tr>
+                            <td>地域通所介護科学的介護推進体制加算</td>
+                            <td>40 単位</td>
+                            <td>43 円</td>
+                            <td>1日あたり算定</td>
+                        </tr>
+                        <tr>
+                            <td>介護職員等処遇改善加算 (Ⅱ)(令和7年4月〜)</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>所定単位数の 90/1000 加算（1か月あたり）</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem;">
+                ※介護職員等処遇改善加算は、基本単位数の 9% 相当が加算されます。<br>
+                ※2割負担の方は、1割負担額の2倍、3割負担の方は3倍となります。
+            </p>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">2. 予防専門型通所サービスの料金（要支援1・2）<span style="font-size: 0.9rem; font-weight: normal; margin-left: 0.5rem; color: var(--color-text-light);">※1日あたり</span></h3>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>要支援度</th>
+                            <th>1日あたりの利用料金（1割負担）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>要支援1</td>
+                            <td>360円</td>
+                        </tr>
+                        <tr>
+                            <td>要支援2</td>
+                            <td>360円</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem;">
+                ※規定回数（例：月5回・9回）を超えるご利用については、別途ご相談ください。<br>
+                ※2割負担の方は、1割負担額の2倍、3割負担の方は3倍となります。
+            </p>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">3. 実費項目（介護保険適用外）<span style="font-size: 0.9rem; font-weight: normal; margin-left: 0.5rem; color: var(--color-text-light);">※1日あたり</span></h3>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>金額</th>
+                            <th>備考</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>昼食代</td>
+                            <td>1日あたり 600円</td>
+                            <td>栄養バランスのとれた昼食を提供いたします</td>
+                        </tr>
+                        <tr>
+                            <td>おやつ代</td>
+                            <td>1日あたり 100円</td>
+                            <td>お茶・お菓子など</td>
+                        </tr>
+                        <tr>
+                            <td>おむつ代</td>
+                            <td>実費（使用時のみ）</td>
+                            <td>リハビリパンツ・パットなど、実際に使用した分のみ請求</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem;">
+                ※昼食代・おやつ代は、ご利用いただいた日数分のみご請求いたします。<br>
+                ※おむつ代は、ご持参いただいた分が不足した場合に限り、当事業所で用意し実費でご請求いたします。
+            </p>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">4. 支払い方法・請求サイクル</h3>
+            
+            <div style="background: var(--color-white); padding: 2rem; border-radius: 12px; border: 1px solid rgba(254, 215, 170, 0.5); box-shadow: 0 4px 16px rgba(0,0,0,0.03);">
+                <h4 style="font-size: 1.1rem; color: var(--color-text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                    </svg>
+                    請求サイクル
+                </h4>
+                <p style="margin-bottom: 2rem; line-height: 1.6; color: var(--color-text); font-size: 0.95rem;">
+                    毎月末日締め、翌月10日までに当月分の請求書をお送りいたします。<br>
+                    お支払いは、翌月末日までにお願いいたします。
+                </p>
+
+                <h4 style="font-size: 1.1rem; color: var(--color-text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                        <rect x="2" y="5" width="20" height="14" rx="2"/>
+                        <line x1="2" y1="10" x2="22" y2="10"/>
+                    </svg>
+                    支払い方法
+                </h4>
+                <p style="margin-bottom: 2rem; line-height: 1.6; color: var(--color-text); font-size: 0.95rem;">
+                    原則として口座振替（銀行口座からの自動引き落とし）となります。<br>
+                    事情により口座振替が難しい場合は、現金でのお支払いも承ります。
+                </p>
+
+                <h4 style="font-size: 1.1rem; color: var(--color-text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" y1="13" x2="8" y2="13"/>
+                        <line x1="16" y1="17" x2="8" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                    領収書
+                </h4>
+                <p style="margin-bottom: 0; line-height: 1.6; color: var(--color-text); font-size: 0.95rem;">
+                    領収書は、次回の請求書に同封いたします。<br>
+                    再発行をご希望の場合は、お気軽にお申し付けください。
+                </p>
+            </div>
+
         </div>
     </div>
 </section>
