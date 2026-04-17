@@ -403,7 +403,6 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <span class="section-label">Documents</span>
             <h2>重要事項説明書</h2>
             <p>デイサービスとんぼの重要事項説明書は、下記よりPDF形式でご覧いただけます。</p>
         </div>
