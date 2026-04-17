@@ -45,12 +45,18 @@
                 <span></span>
             </button>
             <ul class="nav-links" id="nav-links">
-                <li><a href="#news">お知らせ</a></li>
-                <li><a href="#features">私たちの特徴</a></li>
-                <li><a href="#office">事業所案内</a></li>
-                <li><a href="#greeting">代表挨拶</a></li>
-                <li><a href="#company">会社概要</a></li>
+                <?php $rnp_home_url_prefix = ( is_front_page() || is_home() ) ? '' : esc_url(home_url('/')); ?>
+                <li><a href="<?php echo $rnp_home_url_prefix; ?>#news">お知らせ</a></li>
+                <li><a href="<?php echo $rnp_home_url_prefix; ?>#features">私たちの特徴</a></li>
+                <li><a href="<?php echo $rnp_home_url_prefix; ?>#office">事業所案内</a></li>
+                <li><a href="<?php echo $rnp_home_url_prefix; ?>#greeting">代表挨拶</a></li>
+                <li><a href="<?php echo $rnp_home_url_prefix; ?>#company">会社概要</a></li>
+                
+                <?php if ( is_front_page() || is_home() ) : ?>
                 <li><a href="#office" class="btn-contact">お問い合わせ</a></li>
+                <?php else : ?>
+                <li><a href="#contact-form" class="btn-contact">お問い合わせ</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
     </div>
