@@ -398,9 +398,40 @@ get_header();
 </section>
 
 <!-- ========================================
-     Access Section
+     Important Documents Section
 ======================================== -->
 <section class="section">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <span class="section-label">Documents</span>
+            <h2>重要事項説明書</h2>
+            <p>デイサービスとんぼの重要事項説明書は、下記よりPDF形式でご覧いただけます。</p>
+        </div>
+
+        <div class="pdf-download-card">
+            <div class="pdf-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="48" height="48">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10 9 9 9 8 9"/>
+                </svg>
+            </div>
+            <div class="pdf-info">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/pdf/important-document-a.pdf" class="pdf-link" target="_blank" rel="noopener noreferrer">
+                    重要事項説明書 [PDF]
+                </a>
+                <span class="pdf-meta">※PDFファイルの配置をお待ちください。</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Access Section
+======================================== -->
+<section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <span class="section-label">Access</span>

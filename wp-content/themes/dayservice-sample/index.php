@@ -167,7 +167,7 @@ get_header();
                         </li>
                         <li>
                             <span class="info-label">電話</span>
-                            <span><a href="tel:051-915-3008" style="color: inherit; text-decoration: none;">051-915-3008</a></span>
+                            <span style="position: relative; z-index: 2;"><a href="tel:051-915-3008" style="color: inherit; text-decoration: none;">051-915-3008</a></span>
                         </li>
                         <li>
                             <span class="info-label">営業時間</span>
@@ -179,8 +179,9 @@ get_header();
                         </li>
                     </ul>
                     <div style="margin-top: 1.5rem; text-align: center;">
-                        <a href="<?php echo esc_url(home_url('/office-a/')); ?>" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center;">
+                        <a href="<?php echo esc_url(home_url('/office-a/')); ?>" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; position: static;">
                             詳細・お問い合わせ
+                            <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;"></span>
                         </a>
                     </div>
                 </div>
@@ -199,7 +200,7 @@ get_header();
                         </li>
                         <li>
                             <span class="info-label">電話</span>
-                            <span><a href="tel:012-345-6780" style="color: inherit; text-decoration: none;">012-345-6780</a></span>
+                            <span style="position: relative; z-index: 2;"><a href="tel:012-345-6780" style="color: inherit; text-decoration: none;">012-345-6780</a></span>
                         </li>
                         <li>
                             <span class="info-label">営業時間</span>
@@ -211,8 +212,9 @@ get_header();
                         </li>
                     </ul>
                     <div style="margin-top: 1.5rem; text-align: center;">
-                        <a href="<?php echo esc_url(home_url('/office-b/')); ?>" class="btn-primary" style="background: linear-gradient(135deg, #059669, #34D399); padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);">
+                        <a href="<?php echo esc_url(home_url('/office-b/')); ?>" class="btn-primary" style="background: linear-gradient(135deg, #059669, #34D399); padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35); position: static;">
                             詳細・お問い合わせ
+                            <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;"></span>
                         </a>
                     </div>
                 </div>
