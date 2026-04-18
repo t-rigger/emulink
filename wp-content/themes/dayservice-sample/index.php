@@ -176,10 +176,10 @@ get_header();
                         </li>
                     </ul>
                     <div style="margin-top: 1.5rem; text-align: center;">
-                        <a href="<?php echo esc_url(home_url('/office-a/')); ?>" class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; position: static;">
+                        <span class="btn-primary" style="padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; position: static;">
                             詳細・お問い合わせ
-                            <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;"></span>
-                        </a>
+                            <a href="<?php echo esc_url(home_url('/office-a/')); ?>" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;" aria-label="デイサービスとんぼの詳細ページへ"></a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -209,10 +209,10 @@ get_header();
                         </li>
                     </ul>
                     <div style="margin-top: 1.5rem; text-align: center;">
-                        <a href="<?php echo esc_url(home_url('/office-b/')); ?>" class="btn-primary" style="background: linear-gradient(135deg, #059669, #34D399); padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35); position: static;">
+                        <span class="btn-primary" style="background: linear-gradient(135deg, #059669, #34D399); padding: 0.6rem 1.5rem; font-size: 0.9rem; width: 100%; justify-content: center; box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35); position: static;">
                             詳細・お問い合わせ
-                            <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;"></span>
-                        </a>
+                            <a href="<?php echo esc_url(home_url('/office-b/')); ?>" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; cursor: pointer;" aria-label="デイサービスBの詳細ページへ"></a>
+                        </span>
                     </div>
                 </div>
             </div>
