@@ -166,9 +166,120 @@ get_header();
 </section>
 
 <!-- ========================================
+     Seasonal Events Section
+======================================== -->
+<section class="section section-alt" id="seasonal-events">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>年間行事</h2>
+            <p>1年を通して、季節を感じられる様々なイベントを企画しております。</p>
+        </div>
+
+        <div class="yearly-timeline">
+            <!-- 1月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>1月</span></div>
+                <div class="yearly-content">
+                    <h4>神社へGO</h4>
+                    <p>新年の健康を願って、近くの神社へ初詣に出かけます。</p>
+                </div>
+            </div>
+            <!-- 2月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>2月</span></div>
+                <div class="yearly-content">
+                    <h4>節分豆まき</h4>
+                    <p>「鬼は外、福は内！」力いっぱい豆をまき、一年の無病息災を願います。</p>
+                </div>
+            </div>
+            <!-- 3月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>3月</span></div>
+                <div class="yearly-content">
+                    <h4>ひな祭り</h4>
+                    <p>華やかなお雛様を飾り、春らしいおやつで桃の節句をお祝いします。</p>
+                </div>
+            </div>
+            <!-- 4月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>4月</span></div>
+                <div class="yearly-content">
+                    <h4>お花見</h4>
+                    <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
+                </div>
+            </div>
+            <!-- 5月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>5月</span></div>
+                <div class="yearly-content">
+                    <h4>端午の節句</h4>
+                    <p>菖蒲湯で芯まで温まり、鯉のぼりを見ながら昔話に花を咲かせます。</p>
+                </div>
+            </div>
+            <!-- 6月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>6月</span></div>
+                <div class="yearly-content">
+                    <h4>あじさい見学</h4>
+                    <p>色鮮やかなあじさいを鑑賞し、梅雨の時期も明るく楽しく過ごします。</p>
+                </div>
+            </div>
+            <!-- 7月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>7月</span></div>
+                <div class="yearly-content">
+                    <h4>七夕まつり</h4>
+                    <p>短冊にそれぞれの願い事を書き、皆で笹の葉に飾り付けを行います。</p>
+                </div>
+            </div>
+            <!-- 8月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>8月</span></div>
+                <div class="yearly-content">
+                    <h4>夏祭り・盆踊り</h4>
+                    <p>屋台のおやつやゲームを楽しみ、賑やかな盆踊りで夏を満喫します。</p>
+                </div>
+            </div>
+            <!-- 9月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>9月</span></div>
+                <div class="yearly-content">
+                    <h4>敬老会お祝い</h4>
+                    <p>皆様の長寿とご健康を祝し、特別な催しやお食事をご用意します。</p>
+                </div>
+            </div>
+            <!-- 10月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>10月</span></div>
+                <div class="yearly-content">
+                    <h4>秋の大運動会</h4>
+                    <p>紅白に分かれて玉入れなど、無理なく楽しめる競技で気持ちよく汗を流します。</p>
+                </div>
+            </div>
+            <!-- 11月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>11月</span></div>
+                <div class="yearly-content">
+                    <h4>紅葉狩りドライブ</h4>
+                    <p>色づいた木々を車窓から眺めながら、秋の深まりを感じるドライブへ出かけます。</p>
+                </div>
+            </div>
+            <!-- 12月 -->
+            <div class="yearly-item fade-in-up">
+                <div class="yearly-marker"><span>12月</span></div>
+                <div class="yearly-content">
+                    <h4>クリスマス会</h4>
+                    <p>サンタクロースも登場！？ケーキやプレゼント交換で今年最後のイベントを楽しく過ごします。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
      Price Section
 ======================================== -->
-<section class="section section-alt" id="price">
+<section class="section" id="price">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>ご利用料金のご案内</h2>
