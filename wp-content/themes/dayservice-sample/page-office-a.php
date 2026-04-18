@@ -175,101 +175,115 @@ get_header();
             <p>1年を通して、季節を感じられる様々なイベントを企画しております。</p>
         </div>
 
-        <div class="yearly-timeline">
-            <!-- 1月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>1月</span></div>
-                <div class="yearly-content">
-                    <h4>神社へGO</h4>
-                    <p>新年の健康を願って、近くの神社へ初詣に出かけます。</p>
+        <div class="yearly-circle-wrapper">
+            <div class="yearly-circle">
+                <!-- 1月 -->
+                <div class="circle-item fade-in-up" style="--deg: -30deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">1月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>神社へGO</h4>
+                        <p>新年の健康を願って、近くの神社へ初詣に出かけます。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 2月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>2月</span></div>
-                <div class="yearly-content">
-                    <h4>節分豆まき</h4>
-                    <p>「鬼は外、福は内！」力いっぱい豆をまき、一年の無病息災を願います。</p>
+                <!-- 2月 -->
+                <div class="circle-item fade-in-up" style="--deg: 0deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">2月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>節分豆まき</h4>
+                        <p>「鬼は外、福は内！」力いっぱい豆をまき、無病息災を願います。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 3月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>3月</span></div>
-                <div class="yearly-content">
-                    <h4>ひな祭り</h4>
-                    <p>華やかなお雛様を飾り、春らしいおやつで桃の節句をお祝いします。</p>
+                <!-- 3月 -->
+                <div class="circle-item fade-in-up" style="--deg: 30deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">3月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>ひな祭り</h4>
+                        <p>華やかなお雛様を飾り、春らしいおやつでお祝いします。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 4月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>4月</span></div>
-                <div class="yearly-content">
-                    <h4>お花見</h4>
-                    <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
+                <!-- 4月 -->
+                <div class="circle-item fade-in-up" style="--deg: 60deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">4月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>お花見</h4>
+                        <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 5月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>5月</span></div>
-                <div class="yearly-content">
-                    <h4>端午の節句</h4>
-                    <p>菖蒲湯で芯まで温まり、鯉のぼりを見ながら昔話に花を咲かせます。</p>
+                <!-- 5月 -->
+                <div class="circle-item fade-in-up" style="--deg: 90deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">5月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>端午の節句</h4>
+                        <p>菖蒲湯で芯まで温まり、鯉のぼりを見ながら花を咲かせます。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 6月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>6月</span></div>
-                <div class="yearly-content">
-                    <h4>あじさい見学</h4>
-                    <p>色鮮やかなあじさいを鑑賞し、梅雨の時期も明るく楽しく過ごします。</p>
+                <!-- 6月 -->
+                <div class="circle-item fade-in-up" style="--deg: 120deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">6月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>あじさい見学</h4>
+                        <p>色鮮やかなあじさいを鑑賞し、梅雨の時期も明るく過ごします。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 7月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>7月</span></div>
-                <div class="yearly-content">
-                    <h4>七夕まつり</h4>
-                    <p>短冊にそれぞれの願い事を書き、皆で笹の葉に飾り付けを行います。</p>
+                <!-- 7月 -->
+                <div class="circle-item fade-in-up" style="--deg: 150deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">7月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>七夕まつり</h4>
+                        <p>短冊にそれぞれの願い事を書き、笹の葉に飾り付けを行います。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 8月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>8月</span></div>
-                <div class="yearly-content">
-                    <h4>夏祭り・盆踊り</h4>
-                    <p>屋台のおやつやゲームを楽しみ、賑やかな盆踊りで夏を満喫します。</p>
+                <!-- 8月 -->
+                <div class="circle-item fade-in-up" style="--deg: 180deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">8月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>夏祭り・盆踊り</h4>
+                        <p>屋台のおやつやゲームを楽しみ、賑やかな盆踊りで満喫します。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 9月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>9月</span></div>
-                <div class="yearly-content">
-                    <h4>敬老会お祝い</h4>
-                    <p>皆様の長寿とご健康を祝し、特別な催しやお食事をご用意します。</p>
+                <!-- 9月 -->
+                <div class="circle-item fade-in-up" style="--deg: 210deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">9月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>敬老会お祝い</h4>
+                        <p>皆様の長寿とご健康を祝し、特別な催しやお食事をご用意します。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 10月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>10月</span></div>
-                <div class="yearly-content">
-                    <h4>秋の大運動会</h4>
-                    <p>紅白に分かれて玉入れなど、無理なく楽しめる競技で気持ちよく汗を流します。</p>
+                <!-- 10月 -->
+                <div class="circle-item fade-in-up" style="--deg: 240deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">10月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>秋の大運動会</h4>
+                        <p>紅白に分かれて玉入れなど、楽しい競技で気持ちよく汗を流します。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 11月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>11月</span></div>
-                <div class="yearly-content">
-                    <h4>紅葉狩りドライブ</h4>
-                    <p>色づいた木々を車窓から眺めながら、秋の深まりを感じるドライブへ出かけます。</p>
+                <!-- 11月 -->
+                <div class="circle-item fade-in-up" style="--deg: 270deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">11月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>紅葉狩りドライブ</h4>
+                        <p>色づいた木々を車窓から眺めながら秋を感じるドライブへ。</p>
+                    </div>
                 </div>
-            </div>
-            <!-- 12月 -->
-            <div class="yearly-item fade-in-up">
-                <div class="yearly-marker"><span>12月</span></div>
-                <div class="yearly-content">
-                    <h4>クリスマス会</h4>
-                    <p>サンタクロースも登場！？ケーキやプレゼント交換で今年最後のイベントを楽しく過ごします。</p>
+                <!-- 12月 -->
+                <div class="circle-item fade-in-up" style="--deg: 300deg;">
+                    <div class="circle-card">
+                        <div class="circle-marker">12月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>クリスマス会</h4>
+                        <p>サンタクロースも登場！？ケーキやプレゼント交換で楽しく過ごします。</p>
+                    </div>
                 </div>
             </div>
         </div>
