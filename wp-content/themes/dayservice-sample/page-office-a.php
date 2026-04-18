@@ -178,7 +178,7 @@ get_header();
         <div class="yearly-circle-wrapper">
             <div class="yearly-circle">
                 <!-- 1月 -->
-                <div class="circle-item" style="--deg: -30deg;">
+                <div class="circle-item" style="--x: -0.5; --y: 0.866;">
                     <div class="circle-card">
                         <div class="circle-marker">1月</div>
                         <div class="circle-img">画像</div>
@@ -187,7 +187,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 2月 -->
-                <div class="circle-item" style="--deg: 0deg;">
+                <div class="circle-item" style="--x: 0; --y: 1;">
                     <div class="circle-card">
                         <div class="circle-marker">2月</div>
                         <div class="circle-img">画像</div>
@@ -196,7 +196,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 3月 -->
-                <div class="circle-item" style="--deg: 30deg;">
+                <div class="circle-item" style="--x: 0.5; --y: 0.866;">
                     <div class="circle-card">
                         <div class="circle-marker">3月</div>
                         <div class="circle-img">画像</div>
@@ -205,7 +205,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 4月 -->
-                <div class="circle-item" style="--deg: 60deg;">
+                <div class="circle-item" style="--x: 0.866; --y: 0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">4月</div>
                         <div class="circle-img">画像</div>
@@ -214,7 +214,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 5月 -->
-                <div class="circle-item" style="--deg: 90deg;">
+                <div class="circle-item" style="--x: 1; --y: 0;">
                     <div class="circle-card">
                         <div class="circle-marker">5月</div>
                         <div class="circle-img">画像</div>
@@ -223,7 +223,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 6月 -->
-                <div class="circle-item" style="--deg: 120deg;">
+                <div class="circle-item" style="--x: 0.866; --y: -0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">6月</div>
                         <div class="circle-img">画像</div>
@@ -232,7 +232,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 7月 -->
-                <div class="circle-item" style="--deg: 150deg;">
+                <div class="circle-item" style="--x: 0.5; --y: -0.866;">
                     <div class="circle-card">
                         <div class="circle-marker">7月</div>
                         <div class="circle-img">画像</div>
@@ -241,7 +241,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 8月 -->
-                <div class="circle-item" style="--deg: 180deg;">
+                <div class="circle-item" style="--x: 0; --y: -1;">
                     <div class="circle-card">
                         <div class="circle-marker">8月</div>
                         <div class="circle-img">画像</div>
@@ -250,7 +250,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 9月 -->
-                <div class="circle-item" style="--deg: 210deg;">
+                <div class="circle-item" style="--x: -0.5; --y: -0.866;">
                     <div class="circle-card">
                         <div class="circle-marker">9月</div>
                         <div class="circle-img">画像</div>
@@ -259,7 +259,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 10月 -->
-                <div class="circle-item" style="--deg: 240deg;">
+                <div class="circle-item" style="--x: -0.866; --y: -0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">10月</div>
                         <div class="circle-img">画像</div>
@@ -268,7 +268,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 11月 -->
-                <div class="circle-item" style="--deg: 270deg;">
+                <div class="circle-item" style="--x: -1; --y: 0;">
                     <div class="circle-card">
                         <div class="circle-marker">11月</div>
                         <div class="circle-img">画像</div>
@@ -277,7 +277,7 @@ get_header();
                     </div>
                 </div>
                 <!-- 12月 -->
-                <div class="circle-item" style="--deg: 300deg;">
+                <div class="circle-item" style="--x: -0.866; --y: 0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">12月</div>
                         <div class="circle-img">画像</div>
