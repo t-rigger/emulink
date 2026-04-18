@@ -1295,9 +1295,10 @@ textarea.form-control {
 }
 
 .circle-item:hover .circle-card {
-    transform: scale(1.15);
-    box-shadow: 0 12px 30px rgba(249, 115, 22, 0.15);
-    border-color: var(--color-primary-light);
+    transform: scale(1.45); /* 大幅に拡大 */
+    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.25); /* 影も強く */
+    border-color: var(--color-primary); /* ボーダーも濃く強調 */
+    z-index: 50; /* 確実に最前面へ */
 }
 
 .circle-marker {
@@ -1340,10 +1341,10 @@ textarea.form-control {
 
 /* ホバー時に展開 */
 .circle-item:hover .circle-img {
-    height: 80px;
+    height: 110px; /* より大きな画像を確保 */
     opacity: 1;
     margin-bottom: 12px;
-    border-width: 1px;
+    border-width: 2px;
 }
 
 .circle-card h4 {
