@@ -11,7 +11,7 @@ get_header();
 <!-- ========================================
      Hero Section
 ======================================== -->
-<section class="office-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/hero-office.jpg');">
+<section class="office-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-hero.jpg');">
     <div class="office-hero-content fade-in-up">
         <h1>デイサービスとんぼ</h1>
         <p>地域に根差した、温かく安心できる場所をご提供します。</p>
@@ -208,7 +208,7 @@ get_header();
                 <div class="circle-item" style="--x: 0.866; --y: 0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">4月</div>
-                        <div class="circle-img">画像</div>
+                        <div class="circle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-april.jpg" alt="お花見"></div>
                         <h4>お花見</h4>
                         <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
                     </div>
@@ -280,7 +280,7 @@ get_header();
                 <div class="circle-item" style="--x: -0.866; --y: 0.5;">
                     <div class="circle-card">
                         <div class="circle-marker">12月</div>
-                        <div class="circle-img">画像</div>
+                        <div class="circle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-dec.jpg" alt="クリスマス会"></div>
                         <h4>クリスマス会</h4>
                         <p>サンタクロースも登場！？ケーキやプレゼント交換で楽しく過ごします。</p>
                     </div>
