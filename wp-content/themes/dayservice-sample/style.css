@@ -1279,18 +1279,6 @@ textarea.form-control {
     z-index: 10;
 }
 
-/* ホバー中のマウス追従を安定させる見えない橋 */
-.circle-item::before {
-    content: '';
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 850px; height: 850px; /* 中央までの移動距離をカバーする巨大判定枠 */
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: -1;
-}
-
 .circle-card {
     background: var(--color-white);
     border-radius: 16px;
@@ -1299,17 +1287,13 @@ textarea.form-control {
     border: 1px solid rgba(254, 215, 170, 0.4);
     text-align: center;
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    transition-delay: 0.15s; /* フォーカスが外れた場合の待機時間 */
+    transition-delay: 0.3s; /* マウスが途切れてから元に戻り始めるまでの余裕時間 */
     position: relative;
     z-index: 2;
 }
 
 .circle-item:hover {
     z-index: 30;
-}
-
-.circle-item:hover::before {
-    pointer-events: auto; /* ホバー領域を拡張してロストを防ぐ */
 }
 
 .circle-item:hover .circle-card {
@@ -1357,7 +1341,7 @@ textarea.form-control {
     border: 0px dashed rgba(249,115,22,0.3);
     overflow: hidden; /* はみ出しを隠す */
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    transition-delay: 0.15s;
+    transition-delay: 0.3s;
 }
 
 /* ホバー時に展開 */
