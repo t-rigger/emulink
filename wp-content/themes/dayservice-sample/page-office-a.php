@@ -177,6 +177,12 @@ get_header();
 
         <div class="yearly-circle-wrapper">
             <div class="yearly-circle">
+                <!-- 中央のスライドショー -->
+                <div class="center-slideshow">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-april.jpg" alt="4月のお花見">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-dec.jpg" alt="12月のクリスマス会">
+                </div>
+
                 <!-- 1月 -->
                 <div class="circle-item" style="--x: -0.5; --y: 0.866;">
                     <div class="circle-card">
