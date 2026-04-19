@@ -1276,10 +1276,10 @@ textarea.form-control {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px; /* 赤枠ほどの最大サイズへ拡大 */
-    height: 460px;
+    width: 500px; /* 最初と最大の中間サイズへ調整 */
+    height: 380px;
     border-radius: 20px;
-    box-shadow: 0 16px 40px rgba(249, 115, 22, 0.2); /* 影も少し強く */
+    box-shadow: 0 16px 40px rgba(249, 115, 22, 0.2);
     overflow: hidden;
     z-index: 1; /* 通常のカードよりも下に配置 */
 }
