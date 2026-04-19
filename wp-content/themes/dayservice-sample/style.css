@@ -1279,6 +1279,18 @@ textarea.form-control {
     z-index: 10;
 }
 
+/* ホバー中のマウス追従を安定させる見えない橋 */
+.circle-item::before {
+    content: '';
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 850px; height: 850px; /* 中央までの移動距離をカバーする巨大判定枠 */
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+
 .circle-card {
     background: var(--color-white);
     border-radius: 16px;
@@ -1286,19 +1298,27 @@ textarea.form-control {
     box-shadow: 0 4px 16px rgba(0,0,0,0.06);
     border: 1px solid rgba(254, 215, 170, 0.4);
     text-align: center;
-    transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: 0.15s; /* フォーカスが外れた場合の待機時間 */
     position: relative;
+    z-index: 2;
 }
 
 .circle-item:hover {
     z-index: 30;
 }
 
+.circle-item:hover::before {
+    pointer-events: auto; /* ホバー領域を拡張してロストを防ぐ */
+}
+
 .circle-item:hover .circle-card {
-    transform: scale(1.45); /* 大幅に拡大 */
-    box-shadow: 0 20px 40px rgba(249, 115, 22, 0.25); /* 影も強く */
-    border-color: var(--color-primary); /* ボーダーも濃く強調 */
-    z-index: 50; /* 確実に最前面へ */
+    /* ここがポイント：外周の配置位置から中心座標のオフセットを計算し中央へ飛ばす */
+    transform: translate(calc(var(--x) * -400px), calc(var(--y) * 325px)) scale(2.2); 
+    box-shadow: 0 30px 60px rgba(249, 115, 22, 0.3); /* より強い影に */
+    border-color: var(--color-primary); 
+    z-index: 50; 
+    transition-delay: 0s;
 }
 
 .circle-marker {
@@ -1336,15 +1356,17 @@ textarea.form-control {
     font-weight: bold;
     border: 0px dashed rgba(249,115,22,0.3);
     overflow: hidden; /* はみ出しを隠す */
-    transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: 0.15s;
 }
 
 /* ホバー時に展開 */
 .circle-item:hover .circle-img {
-    height: 110px; /* より大きな画像を確保 */
+    height: 100px; /* 内部コンテンツも中央向けに大きく */
     opacity: 1;
     margin-bottom: 12px;
     border-width: 2px;
+    transition-delay: 0s;
 }
 
 .circle-card h4 {
@@ -1379,8 +1401,14 @@ textarea.form-control {
         width: 100%;
         transform: none !important;
     }
+    .circle-item::before {
+        display: none !important;
+    }
     .circle-item:hover .circle-card {
-        transform: translateY(-4px);
+        transform: translateY(-4px) scale(1.02);
+    }
+    .circle-item:hover .circle-img {
+        height: 80px; /* スマホなら大きすぎないサイズ */
     }
 }
 @media (max-width: 480px) {
