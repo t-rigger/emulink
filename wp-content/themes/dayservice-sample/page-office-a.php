@@ -179,7 +179,7 @@ get_header();
             <div class="yearly-circle">
                 <!-- 中央のスライドショー -->
                 <div class="center-slideshow">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real.jpg" alt="ロゴ画像" class="slideshow-logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real-transparent.png" alt="ロゴ画像" class="slideshow-logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-april.jpg" alt="4月のお花見">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-dec.jpg" alt="12月のクリスマス会">
                 </div>

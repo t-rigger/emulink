@@ -1340,7 +1340,6 @@ textarea.form-control {
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
     transition-delay: 0.3s;
     z-index: 2;
-    overflow: hidden; /* コンテンツのはみ出しを防ぎ、背景色を維持 */
 }
 
 .circle-item:hover {

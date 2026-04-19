@@ -13,7 +13,7 @@
      Splash Screen
 ======================================== -->
 <div id="splash-screen">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real.jpg" alt="デイサービスとんぼ" class="splash-logo">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real-transparent.png" alt="デイサービスとんぼ" class="splash-logo">
 </div>
 
 <!-- ========================================
