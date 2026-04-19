@@ -72,21 +72,9 @@ body {
 }
 
 #splash-screen .splash-logo {
-  font-family: var(--font-display);
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--color-primary);
-  letter-spacing: 0.15em;
+  max-width: 400px;
+  width: 80%;
   animation: splashPulse 1.5s ease-in-out infinite;
-}
-
-#splash-screen .splash-tagline {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  color: var(--color-text-light);
-  margin-top: 1rem;
-  opacity: 0;
-  animation: splashFadeIn 0.8s ease 0.5s forwards;
 }
 
 @keyframes splashPulse {
@@ -1263,8 +1251,8 @@ textarea.form-control {
 
 .yearly-circle {
     position: relative;
-    width: 800px;
-    height: 650px;
+    width: 960px;
+    height: 760px;
     margin: 0 auto;
     border-radius: 50%;
     border: 3px dashed rgba(249, 115, 22, 0.2);
@@ -1276,15 +1264,23 @@ textarea.form-control {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px; /* 最初と最大の中間サイズへ調整 */
+    width: 500px;
     height: 380px;
     border-radius: 20px;
     box-shadow: 0 16px 40px rgba(249, 115, 22, 0.2);
     overflow: hidden;
     z-index: 1; /* 通常のカードよりも下に配置 */
+    transition: opacity 0.3s ease;
+    transition-delay: 0.3s; /* カードが戻る時にゆっくり再表示 */
 }
 
-/* 2枚の画像を交互にフェードイン・フェードアウトさせる */
+/* ホバー時にスライドショーを隠す */
+.yearly-circle:has(.circle-item:hover) .center-slideshow {
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+/* 3枚の画像を交互にフェードイン・フェードアウトさせる */
 .center-slideshow img {
     position: absolute;
     top: 0;
@@ -1293,48 +1289,58 @@ textarea.form-control {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    animation: fadeSlideshow 5s infinite; /* 5秒周期のアニメーション */
+    animation: fadeSlideshow 7.5s infinite; /* 7.5秒周期のアニメーション */
 }
 
-/* 1枚目 */
-.center-slideshow img:nth-child(1) {
-    animation-delay: 0s;
+/* 最初に入るロゴ画像は枠内に収める */
+.center-slideshow img.slideshow-logo {
+    object-fit: contain;
+    padding: 1.5rem;
+    background: var(--color-white);
 }
 
-/* 2枚目 */
-.center-slideshow img:nth-child(2) {
-    animation-delay: 2.5s; /* 2.5秒ズラしてスタート */
-}
+/* 1枚目（ロゴ） */
+.center-slideshow img:nth-child(1) { animation-delay: 0s; }
+/* 2枚目（4月） */
+.center-slideshow img:nth-child(2) { animation-delay: 2.5s; }
+/* 3枚目（12月） */
+.center-slideshow img:nth-child(3) { animation-delay: 5s; }
 
-/* フェード切り替えのキーフレーム (5秒周期のうち、表示・待機・非表示を割当) */
+/* フェード切り替えのキーフレーム (7.5秒周期のうち、表示・待機・非表示を割当) */
 @keyframes fadeSlideshow {
-    0%   { opacity: 0; }
-    10%  { opacity: 1; }
-    50%  { opacity: 1; }
-    60%  { opacity: 0; }
-    100% { opacity: 0; }
+    0%       { opacity: 0; }
+    6.66%    { opacity: 1; }
+    33.33%   { opacity: 1; }
+    40%      { opacity: 0; }
+    100%     { opacity: 0; }
 }
 
 .circle-item {
     position: absolute;
-    top: calc(50% - (var(--y) * 325px));
-    left: calc(50% + (var(--x) * 400px));
-    width: 155px; /* 少しだけコンパクトに */
+    top: calc(50% - (var(--y) * 380px));
+    left: calc(50% + (var(--x) * 480px));
+    width: 155px; /* 当たり判定枠 */
+    height: 180px; /* 当たり判定枠を維持 */
     transform: translate(-50%, -50%);
     z-index: 10;
 }
 
 .circle-card {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 155px; /* マーカー用に上を少し空ける */
+    min-height: 160px;
     background: var(--color-white);
     border-radius: 16px;
-    padding: 32px 12px 14px; /* マーカー用に上を少し空ける */
+    padding: 32px 12px 14px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.06);
     border: 1px solid rgba(254, 215, 170, 0.4);
     text-align: center;
     transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
-    transition-delay: 0.3s; /* マウスが途切れてから元に戻り始めるまでの余裕時間 */
-    position: relative;
+    transition-delay: 0.3s;
     z-index: 2;
+    overflow: hidden; /* コンテンツのはみ出しを防ぎ、背景色を維持 */
 }
 
 .circle-item:hover {
@@ -1342,9 +1348,13 @@ textarea.form-control {
 }
 
 .circle-item:hover .circle-card {
-    /* ここがポイント：外周の配置位置から中心座標のオフセットを計算し中央へ飛ばす */
-    transform: translate(calc(var(--x) * -400px), calc(var(--y) * 325px)) scale(2.2); 
-    box-shadow: 0 30px 60px rgba(249, 115, 22, 0.3); /* より強い影に */
+    /* スライドショーと全く同じ大きさに変形（500x380） */
+    width: 500px;
+    min-height: 380px;
+    padding: 50px 40px; /* 大サイズに合わせて余白拡張 */
+    border-radius: 20px;
+    transform: translate(calc(-50% + var(--x) * -480px), calc(-50% + var(--y) * 380px)); 
+    box-shadow: 0 30px 60px rgba(249, 115, 22, 0.25); /* 浮遊感を強調 */
     border-color: var(--color-primary); 
     z-index: 50; 
     transition-delay: 0s;
@@ -1397,9 +1407,9 @@ textarea.form-control {
 
 /* ホバー時に展開 */
 .circle-item:hover .circle-img {
-    height: 100px; /* 内部コンテンツも中央向けに大きく */
+    height: 180px; /* 大サイズ変形に合わせて画像も大きく */
     opacity: 1;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     border-width: 2px;
     transition-delay: 0s;
 }
@@ -1409,6 +1419,14 @@ textarea.form-control {
     font-size: 0.95rem;
     margin-bottom: 0.4rem;
     font-weight: 700;
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: 0.3s;
+}
+
+.circle-item:hover .circle-card h4 {
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+    transition-delay: 0s;
 }
 
 .circle-card p {
@@ -1416,6 +1434,14 @@ textarea.form-control {
     font-size: 0.75rem;
     margin: 0;
     line-height: 1.4;
+    transition: all 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    transition-delay: 0.3s;
+}
+
+.circle-item:hover .circle-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    transition-delay: 0s;
 }
 
 /* Mobile & Tablet Fallback */
@@ -1444,16 +1470,28 @@ textarea.form-control {
         top: auto;
         left: auto;
         width: 100%;
+        height: auto;
         transform: none !important;
+    }
+    .circle-card {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;    
+        min-height: auto;
     }
     .circle-item::before {
         display: none !important;
     }
     .circle-item:hover .circle-card {
-        transform: translateY(-4px) scale(1.02);
+        width: 100%;
+        min-height: auto;
+        padding: 32px 12px 14px; /* スマホ時のホバー拡張を無効化 */
+        transform: translateY(-4px) scale(1.02) !important;
     }
     .circle-item:hover .circle-img {
-        height: 80px; /* スマホなら大きすぎないサイズ */
+        height: 120px; /* スマホなら大きすぎないサイズ */
     }
 }
 @media (max-width: 480px) {

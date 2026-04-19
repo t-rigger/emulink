@@ -13,8 +13,7 @@
      Splash Screen
 ======================================== -->
 <div id="splash-screen">
-    <div class="splash-logo">SAMPLE LOGO</div>
-    <div class="splash-tagline">笑顔があふれる、もうひとつの我が家。</div>
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real.jpg" alt="デイサービスとんぼ" class="splash-logo">
 </div>
 
 <!-- ========================================
