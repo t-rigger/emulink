@@ -1293,7 +1293,7 @@ textarea.form-control {
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    animation: fadeSlideshow 10s infinite; /* 10秒周期のアニメーション */
+    animation: fadeSlideshow 5s infinite; /* 5秒周期のアニメーション */
 }
 
 /* 1枚目 */
@@ -1303,10 +1303,10 @@ textarea.form-control {
 
 /* 2枚目 */
 .center-slideshow img:nth-child(2) {
-    animation-delay: 5s; /* 5秒ズラしてスタート */
+    animation-delay: 2.5s; /* 2.5秒ズラしてスタート */
 }
 
-/* フェード切り替えのキーフレーム (10秒周期のうち、表示・待機・非表示を割当) */
+/* フェード切り替えのキーフレーム (5秒周期のうち、表示・待機・非表示を割当) */
 @keyframes fadeSlideshow {
     0%   { opacity: 0; }
     10%  { opacity: 1; }
