@@ -185,15 +185,15 @@ get_header();
 
             <!-- Office B -->
             <div class="office-card">
-                <a href="<?php echo esc_url(home_url('/office-b/')); ?>" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;" aria-label="デイサービスBの詳細ページへ"></a>
+                <a href="<?php echo esc_url(home_url('/office-b/')); ?>" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;" aria-label="シルバーハウスとんぼ中村の詳細ページへ"></a>
                 <div class="office-card-header" style="background: linear-gradient(135deg, #059669, #34D399);">
-                    <h3>エムリンクデイサービスB</h3>
+                    <h3>シルバーハウスとんぼ中村</h3>
                 </div>
                 <div class="office-card-body">
                     <ul class="office-info">
                         <li>
                             <span class="info-label">住所</span>
-                            <span>〒100-0002 東京都千代田区千代田2-2-2 エムリンク第2ビル1F</span>
+                            <span>名古屋市中村小鴨町66番地</span>
                         </li>
                         <li>
                             <span class="info-label">電話</span>

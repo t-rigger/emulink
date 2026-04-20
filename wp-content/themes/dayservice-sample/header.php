@@ -54,7 +54,7 @@
                         </a>
                         <ul class="nav-dropdown-menu">
                             <li><a href="<?php echo esc_url(home_url('/office-a/')); ?>">デイサービスとんぼ</a></li>
-                            <li><a href="<?php echo esc_url(home_url('/office-b/')); ?>">デイサービスB</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/office-b/')); ?>">シルバーハウスとんぼ中村</a></li>
                         </ul>
                     </li>
                     <li><a href="<?php echo $rnp_home_url_prefix; ?>#greeting">代表挨拶</a></li>

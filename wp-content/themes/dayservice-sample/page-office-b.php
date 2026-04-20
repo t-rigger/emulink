@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: 事業所B
+ * Template Name: シルバーハウスとんぼ中村
  *
  * @package DayserviceSample
  */
@@ -11,185 +11,296 @@ get_header();
 <!-- ========================================
      Hero Section
 ======================================== -->
-<section class="office-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/hero-office.jpg');">
-    <div class="office-hero-content fade-in-up">
-        <h1 style="color: #FFF;">エムリンクデイサービスB</h1>
-        <p style="color: #FFF;">緑に囲まれた穏やかな環境で、心休まる時間を提供いたします。</p>
+<section class="sh-hero">
+    <div class="section-inner text-center fade-in-up">
+        <h1>シルバーハウスとんぼ中村</h1>
+        <p>住み慣れたこの街で、明日も変わらない安心を。</p>
     </div>
 </section>
 
 <!-- ========================================
-     Greeting / About Section
-     (施設長挨拶は現状非表示にするご要望のためコメントアウト)
+     Pillars (Strong Points)
 ======================================== -->
-<?php /*
 <section class="section">
     <div class="section-inner fade-in-up">
-        <div class="section-header">
-            <h2>施設長のご挨拶</h2>
+        <div class="section-header text-center">
+            <h2 style="color: #1E3A8A;">私たちの3つの強み</h2>
+            <p>誠実なケアと確かな安心をお届けします</p>
         </div>
 
-        <div class="greeting-grid">
-            <div class="greeting-image">
-                <div class="greeting-placeholder" style="aspect-ratio: 4/3; background: linear-gradient(135deg, #A7F3D0, #D1FAE5);">
-                    <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 60px;">
-                        <circle cx="60" cy="45" r="25" fill="#34D399"/>
-                        <circle cx="52" cy="40" r="3" fill="#065F46"/>
-                        <circle cx="68" cy="40" r="3" fill="#065F46"/>
-                        <path d="M50 52C50 52 54 58 60 58C66 58 70 52 70 52" stroke="#065F46" stroke-width="2.5" stroke-linecap="round"/>
-                        <path d="M35 45C35 30 45 18 60 18C75 18 85 30 85 45" stroke="#064E3B" stroke-width="3" fill="none"/>
-                        <rect x="35" y="75" width="50" height="40" rx="8" fill="#059669"/>
-                        <path d="M45 75L60 65L75 75" fill="#059669"/>
-                    </svg>
-                    <span>施設長 画像</span>
+        <div class="sh-pillars">
+            <!-- Pillar 1 -->
+            <div class="sh-pillar-card">
+                <div class="sh-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </div>
+                <h3>24時間体制のアットホームな見守り</h3>
+                <p>24時間365日スタッフが常駐。お一人おひとりのプライバシーを尊重しながら、必要な時にすぐ手が届く安心の距離感を提供します。</p>
             </div>
-            <div class="greeting-text">
-                <h3 style="color: #059669;">施設長から皆様へ</h3>
-                <div class="message">
-                    <p>エムリンクデイサービスBは、豊かな自然に囲まれた静かな環境の中で、穏やかな時間を過ごしていただけるデイサービスセンターです。</p>
-                    <br>
-                    <p>私たちは、利用者様がご自身のペースでゆったりと過ごせるよう、心地よい空間づくりと細やかなサポートを心がけています。広々としたフロアや、季節の花々を楽しめる中庭も当施設の自慢です。</p>
-                    <br>
-                    <p>趣味の活動や園芸など、心を満たすプログラムを通じて、毎日を笑顔で過ごすためのお手伝いをいたします。どうぞお気軽にお立ち寄りください。</p>
+            <!-- Pillar 2 -->
+            <div class="sh-pillar-card">
+                <div class="sh-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 10-6-6-6 6"/><path d="M13 4v12"/><path d="M7 16h12"/></svg>
                 </div>
+                <h3>地域医療機関との強力な連携</h3>
+                <p>近隣の協力医療機関と連携。日々の健康管理から緊急時の迅速な対応まで、住み慣れた地域で安心して暮らし続けるための体制を構築しています。</p>
+            </div>
+            <!-- Pillar 3 -->
+            <div class="sh-pillar-card">
+                <div class="sh-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h3>サービス品質を支える職場環境</h3>
+                <p>スタッフが心身ともに健やかに働ける環境づくりを徹底。スタッフのゆとりと満足度が、利用者様への誠実で質の高いケアに直結しています。</p>
             </div>
         </div>
     </div>
 </section>
-*/ ?>
-
 
 <!-- ========================================
-     Facility Overview Section
+     Facility Status
 ======================================== -->
-<section class="section section-alt" id="overview">
+<section class="section section-alt">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>施設概要</h2>
         </div>
-
-        <table class="company-table">
-            <tbody>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">事業所名</th>
-                    <td>エムリンクデイサービスB</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">サービス内容</th>
-                    <td>通所介護（デイサービス）</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">所在地</th>
-                    <td>〒100-0002 東京都千代田区千代田2-2-2 エムリンク第2ビル1F</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">連絡先</th>
-                    <td><a href="tel:012-345-6780" style="color: #059669;">012-345-6780</a></td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">営業時間</th>
-                    <td>月曜日〜土曜日 8:30〜17:30</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">定休日</th>
-                    <td>日曜日・祝日・年末年始（12/29〜1/3）</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">利用定員</th>
-                    <td>25名 / 1日</td>
-                </tr>
-                <tr>
-                    <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">設備状況</th>
-                    <td>一般浴槽完備、園芸スペース、マッサージチェア</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-
-<!-- ========================================
-     Daily Schedule Section
-======================================== -->
-<section class="section" id="recreation">
-    <div class="section-inner fade-in-up">
-        <div class="section-header">
-            <h2>1日の流れ</h2>
-            <p>ゆったりとした時間が流れる一日</p>
-        </div>
-
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">09:00</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>お迎え・到着</h4>
-                    <p>専用車でご自宅までお迎えにあがります。到着後は、お茶を飲みながら健康チェックを行います。</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">10:00</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>入浴・のんびりタイム</h4>
-                    <p>順次ご入浴となります。入浴されない時間は、中庭を眺めながら読書などご自身のペースでお過ごしいただけます。</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">12:00</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>昼食・口腔ケア</h4>
-                    <p>季節の食材を使った、おいしい昼食をご提供します。食後は口腔ケアをサポートします。</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">14:00</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>趣味活動・レクリエーション</h4>
-                    <p>園芸やフラワーアレンジメントなど、静かで落ち着いた趣味の活動を中心に楽しんでいただきます。</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">15:00</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>ティータイム</h4>
-                    <p>手作りおやつをご用意。お好きな飲み物と一緒に、リラックスしたひとときを。</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-time" style="color: #059669;">16:30</div>
-                <div class="timeline-content" style="border-color: rgba(52, 211, 153, 0.3);">
-                    <h4>お送り</h4>
-                    <p>今日も一日お疲れ様でした。ご自宅まで安全にお送りいたします。</p>
-                </div>
-            </div>
+        <div class="sh-table-wrap">
+            <table class="sh-table">
+                <tbody>
+                    <tr>
+                        <th>事業所名</th>
+                        <td>シルバーハウスとんぼ中村</td>
+                    </tr>
+                    <tr>
+                        <th>所在地</th>
+                        <td>名古屋市中村小鴨町66番地</td>
+                    </tr>
+                    <tr>
+                        <th>類型</th>
+                        <td>住宅型有料老人ホーム</td>
+                    </tr>
+                    <tr>
+                        <th>構造</th>
+                        <td>鉄骨造</td>
+                    </tr>
+                    <tr>
+                        <th>居住の権利形態</th>
+                        <td>利用権方式</td>
+                    </tr>
+                    <tr>
+                        <th>入居時の要件</th>
+                        <td>要介護1～要介護5</td>
+                    </tr>
+                    <tr>
+                        <th>介護居室区分</th>
+                        <td>一人部屋（18室各1名）</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
 
 <!-- ========================================
-     Important Documents / Price Section
+     Pricing Section
 ======================================== -->
-<section class="section section-alt" id="price">
+<section class="section" id="price">
     <div class="section-inner fade-in-up">
         <div class="section-header">
-            <h2>重要事項説明書・ご利用料金</h2>
-            <p>詳しくは、下記PDFをご覧ください。</p>
+            <h2>ご利用料金</h2>
+            <p>月々のお支払いや入居時の費用についてご案内します</p>
         </div>
 
-        <div class="pdf-download-card" style="border-color: rgba(52, 211, 153, 0.3);">
-            <div class="pdf-icon" style="color: #059669;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="48" height="48">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                    <polyline points="14 2 14 8 20 8"/>
-                    <line x1="16" y1="13" x2="8" y2="13"/>
-                    <line x1="16" y1="17" x2="8" y2="17"/>
-                    <polyline points="10 9 9 9 8 9"/>
-                </svg>
+        <div class="swipe-hint">← スワイプして続きを見る</div>
+
+        <!-- Entrance Fee -->
+        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">入居までの費用</h3>
+        <div class="sh-table-wrap">
+            <table class="sh-table sh-table-primary">
+                <thead>
+                    <tr>
+                        <th>項目</th>
+                        <th>金額</th>
+                        <th>備考</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>入居申込金</td>
+                        <td>150,000円</td>
+                        <td>入居時にお支払いいただく費用です</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Monthly Fee -->
+        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">月額利用料（標準）</h3>
+        <div class="sh-table-wrap">
+            <table class="sh-table">
+                <thead>
+                    <tr>
+                        <th>内訳項目</th>
+                        <th>金額（税込）</th>
+                        <th>詳細・注釈</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>賃料</td>
+                        <td>50,000円</td>
+                        <td>非課税 / 居住用賃貸料</td>
+                    </tr>
+                    <tr>
+                        <td>食事代</td>
+                        <td>51,030円</td>
+                        <td>1日3食30日計算（1日567円）</td>
+                    </tr>
+                    <tr>
+                        <td>水道光熱費</td>
+                        <td>12,650円</td>
+                        <td>居室内および共用部使用分含む</td>
+                    </tr>
+                    <tr>
+                        <td>共用管理費</td>
+                        <td>3,150円</td>
+                        <td>非課税 / 施設管理、メンテナンス、通信費等</td>
+                    </tr>
+                    <tr>
+                        <td>個人管理費</td>
+                        <td>3,630円</td>
+                        <td>生活サポート等</td>
+                    </tr>
+                    <tr style="font-weight: bold; background: #F9FAFB;">
+                        <td>合計</td>
+                        <td>120,460円</td>
+                        <td>毎月25日に指定口座より引落</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Additional Expenses -->
+        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">その他の実費・加算</h3>
+        <div class="sh-table-wrap">
+            <table class="sh-table">
+                <thead>
+                    <tr>
+                        <th>項目</th>
+                        <th>金額（税込）</th>
+                        <th>備考</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>リネン費</td>
+                        <td>2,300円/月</td>
+                        <td>寝具リース、布団管理（原則リース品使用）</td>
+                    </tr>
+                    <tr>
+                        <td>洗濯代・管理費</td>
+                        <td>1,100円/月</td>
+                        <td>排泄汚染物などの個別洗濯対応含む</td>
+                    </tr>
+                    <tr>
+                        <td>個別実費</td>
+                        <td>別途実費</td>
+                        <td>おむつ代、理美容代、医療費、日用品費 など</td>
+                    </tr>
+                    <tr>
+                        <td>介護サービス費</td>
+                        <td>自己負担分</td>
+                        <td>介護保険利用時の1割〜3割負担分</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Rooms List
+======================================== -->
+<section class="section section-alt">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>居室のご案内</h2>
+            <p>プライバシーに配慮した、全室個室の落ち着いた空間です</p>
+        </div>
+
+        <div class="swipe-hint">← スワイプして続きを見る</div>
+
+        <div class="sh-table-wrap">
+            <table class="sh-table">
+                <thead>
+                    <tr>
+                        <th>タイプ</th>
+                        <th>面積（㎡）</th>
+                        <th>室数</th>
+                        <th>設備</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>タイプ1</td><td>7.47</td><td>1室</td><td rowspan="10">緊急通報装置、収納、エアコン完備<br><small>※トイレ・浴室は共用部をご利用ください</small></td></tr>
+                    <tr><td>タイプ2</td><td>5.91</td><td>1室</td></tr>
+                    <tr><td>タイプ3</td><td>6.50</td><td>2室</td></tr>
+                    <tr><td>タイプ4</td><td>6.75</td><td>4室</td></tr>
+                    <tr><td>タイプ5</td><td>6.62</td><td>3室</td></tr>
+                    <tr><td>タイプ6</td><td>5.37</td><td>2室</td></tr>
+                    <tr><td>タイプ7</td><td>8.70</td><td>1室</td></tr>
+                    <tr><td>タイプ8</td><td>6.82</td><td>1室</td></tr>
+                    <tr><td>タイプ9</td><td>5.20</td><td>1室</td></tr>
+                    <tr><td>タイプ10</td><td>6.12</td><td>1室</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Steps Section
+======================================== -->
+<section class="section">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>ご入居までの流れ</h2>
+        </div>
+        <div class="sh-step-list">
+            <div class="sh-step-item">
+                <div class="sh-step-number">1</div>
+                <div class="sh-step-content">
+                    <h4>お問い合わせ</h4>
+                    <p>お電話またはフォームよりお気軽にご連絡ください。資料請求も承っております。</p>
+                </div>
             </div>
-            <div class="pdf-info">
-                <a href="#" class="pdf-link" style="color: #059669;" target="_blank" rel="noopener noreferrer">
-                    重要事項説明書・料金表 [PDF]
-                </a>
-                <span class="pdf-meta">改訂日：2025年2月</span>
+            <div class="sh-step-item">
+                <div class="sh-step-number">2</div>
+                <div class="sh-step-content">
+                    <h4>見学・ご相談</h4>
+                    <p>実際の施設内をご案内いたします。生活に関する不安やご希望など、詳しくお聞かせください。</p>
+                </div>
+            </div>
+            <div class="sh-step-item">
+                <div class="sh-step-number">3</div>
+                <div class="sh-step-content">
+                    <h4>入居審査・面談</h4>
+                    <p>ご本人様およびご家族様と面談を行い、お体の状態やケアの必要性を確認させていただきます。</p>
+                </div>
+            </div>
+            <div class="sh-step-item">
+                <div class="sh-step-number">4</div>
+                <div class="sh-step-content">
+                    <h4>ご契約</h4>
+                    <p>重要事項説明および契約内容の確認を行い、正式に契約を締結いたします。</p>
+                </div>
+            </div>
+            <div class="sh-step-item">
+                <div class="sh-step-number">5</div>
+                <div class="sh-step-content">
+                    <h4>ご入居</h4>
+                    <p>お引越しの日程を調整し、新しい生活がスタートします。スタッフ一同心よりお待ちしております。</p>
+                </div>
             </div>
         </div>
     </div>
@@ -198,71 +309,45 @@ get_header();
 <!-- ========================================
      Access Section
 ======================================== -->
-<section class="section">
+<section class="section section-alt">
     <div class="section-inner fade-in-up">
-        <div class="section-header">
+        <div class="section-header text-center">
             <h2>アクセス</h2>
         </div>
-        
-        <div style="max-width: 800px; margin: 0 auto;">
-            <p style="margin-bottom: 1.5rem; text-align: center;">
-                【電車の場合】 JRエムリンク駅より車で約15分<br>
-                【バスの場合】 エムリンクバス停より徒歩3分<br>
-                （専用駐車場10台完備・緑の看板が目印です）
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p style="margin-bottom: 2rem;">
+                <strong>シルバーハウスとんぼ中村</strong><br>
+                名古屋市中村小鴨町66番地
             </p>
-            <div class="office-map" style="height: 400px; background: #E5E7EB; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #9CA3AF;">
-                <span>Google Maps（東京都千代田区千代田2-2-2）準備中</span>
+            <div style="background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); text-align: left; margin-bottom: 2rem;">
+                <p><strong>【公共交通機関をご利用の場合】</strong></p>
+                <ul style="list-style: none; padding: 0; margin-top: 1rem;">
+                    <li style="margin-bottom: 0.5rem;">① 市営地下鉄東山線「岩塚駅」下車 徒歩30分</li>
+                    <li>② 市営バス「岩塚本通り五丁目」停留所 下車 徒歩5分</li>
+                </ul>
+            </div>
+            <div style="height: 300px; background: #E5E7EB; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7280;">
+                <span>Google Maps 準備中（名古屋市中村小鴨町66番地）</span>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ========================================
-     Contact Form Section
+     Important Documents (BCP etc.)
 ======================================== -->
-<section class="section section-alt" id="contact-form">
+<section class="section">
     <div class="section-inner fade-in-up">
-        <div class="section-header">
-            <h2>事業所Bへのお問い合わせ</h2>
-            <p>見学や体験利用など、お気軽にご連絡ください</p>
+        <div class="section-header text-center">
+            <h3>重要事項・規定の公開</h3>
+            <p>安心・安全な運営のため、各種指針を公開しております</p>
         </div>
-
-        <div class="contact-form-wrapper" style="border-color: rgba(52, 211, 153, 0.3);">
-            <form action="#" method="post">
-                <input type="hidden" name="office" value="エムリンクデイサービスB">
-                
-                <div class="form-group">
-                    <label for="name">お名前 <span class="required" style="background: #059669;">必須</span></label>
-                    <input type="text" id="name" name="name" class="form-control" required placeholder="例：山田 太郎" style="border-color: rgba(5, 150, 105, 0.3);">
-                </div>
-
-                <div class="form-group">
-                    <label for="kana">フリガナ <span class="required" style="background: #059669;">必須</span></label>
-                    <input type="text" id="kana" name="kana" class="form-control" required placeholder="例：ヤマダ タロウ" style="border-color: rgba(5, 150, 105, 0.3);">
-                </div>
-
-                <div class="form-group">
-                    <label for="tel">電話番号 <span class="required" style="background: #059669;">必須</span></label>
-                    <input type="tel" id="tel" name="tel" class="form-control" required placeholder="例：090-1234-5678" style="border-color: rgba(5, 150, 105, 0.3);">
-                </div>
-
-                <div class="form-group">
-                    <label for="email">メールアドレス</label>
-                    <input type="email" id="email" name="email" class="form-control" placeholder="例：info@example.com" style="border-color: rgba(5, 150, 105, 0.3);">
-                </div>
-
-                <div class="form-group">
-                    <label for="message">お問い合わせ内容 <span class="required" style="background: #059669;">必須</span></label>
-                    <textarea id="message" name="message" class="form-control" required placeholder="見学希望やご質問などをご記入ください" style="border-color: rgba(5, 150, 105, 0.3);"></textarea>
-                </div>
-
-                <div class="form-submit">
-                    <button type="submit" class="btn-submit" style="background: linear-gradient(135deg, #059669, #34D399); box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);">送信する</button>
-                    <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">
-                        ※送信処理は現在準備中です。UIのみのデモとなります。
-                    </p>
-                </div>
-            </form>
+        <div class="sh-legal-links">
+            <a href="#">事業継続計画（BCP）</a>
+            <a href="#">虐待防止指針</a>
+            <a href="#">苦情解決体制</a>
+            <a href="#">感染症対策指針</a>
+            <a href="#">個人情報保護方針</a>
         </div>
     </div>
 </section>
