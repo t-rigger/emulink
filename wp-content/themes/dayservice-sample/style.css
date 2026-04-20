@@ -1799,7 +1799,7 @@ textarea.form-control {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(30, 58, 138, 0.6), rgba(30, 58, 138, 0.4)), url('./assets/images/hero-office.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(161, 98, 7, 0.5), rgba(234, 179, 8, 0.3)), url('./assets/images/hero-office.jpg') center/cover no-repeat;
 }
 .sh-hero h1 {
     color: #fff;
@@ -1826,11 +1826,11 @@ textarea.form-control {
     padding: 2.5rem 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    border-top: 4px solid #1E3A8A;
+    border-top: 4px solid #EAB308;
     text-align: center;
 }
 .sh-pillar-card h3 {
-    color: #1E3A8A;
+    color: #EAB308;
     font-size: 1.25rem;
     margin: 1.5rem 0 1rem;
 }
@@ -1844,12 +1844,12 @@ textarea.form-control {
     width: 64px;
     height: 64px;
     margin: 0 auto;
-    background: #EFF6FF;
+    background: #FEFCE8;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #1E3A8A;
+    color: #EAB308;
 }
 
 .sh-table-wrap {
@@ -1879,7 +1879,7 @@ textarea.form-control {
     color: #4B5563;
 }
 .sh-table-primary th {
-    background: #1E3A8A;
+    background: #EAB308;
     color: #fff;
 }
 
@@ -1906,7 +1906,7 @@ textarea.form-control {
     left: -2rem;
     width: 32px;
     height: 32px;
-    background: #1E3A8A;
+    background: #EAB308;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -1924,7 +1924,7 @@ textarea.form-control {
     border: 1px solid #E5E7EB;
 }
 .sh-step-content h4 {
-    color: #1E3A8A;
+    color: #EAB308;
     margin-bottom: 0.5rem;
 }
 
@@ -1947,17 +1947,17 @@ textarea.form-control {
 }
 .sh-legal-links a:hover {
     background: #E5E7EB;
-    color: #1E3A8A;
+    color: #EAB308;
 }
 
 /* --- Silver House Theme Overrides --- */
 .sh-theme {
-    --color-primary: #1E3A8A;
-    --color-primary-light: #3B82F6;
-    --color-primary-dark: #1E3A8A;
-    --color-base: #F9FAFB;
+    --color-primary: #EAB308;
+    --color-primary-light: #FACC15;
+    --color-primary-dark: #EAB308;
+    --color-base: #FEFCE8;
     --color-base-light: #FFFFFF;
-    --color-text: #111827;
+    --color-text: #422006;
     --color-text-light: #4B5563;
     --color-border: #E5E7EB;
 }
@@ -1968,16 +1968,16 @@ textarea.form-control {
 }
 
 .sh-theme .btn-contact {
-    background: linear-gradient(135deg, #1E3A8A, #3B82F6);
-    box-shadow: 0 4px 14px rgba(30, 58, 138, 0.3);
+    background: linear-gradient(135deg, #EAB308, #FACC15);
+    box-shadow: 0 4px 14px rgba(234, 179, 8, 0.3);
 }
 
 .sh-theme .btn-contact:hover {
-    box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
+    box-shadow: 0 6px 20px rgba(234, 179, 8, 0.4);
 }
 
 .sh-theme .menu-toggle span {
-    background: #1E3A8A;
+    background: #EAB308;
 }
 
 .sh-theme #splash-screen {
@@ -1992,7 +1992,7 @@ textarea.form-control {
 
 .sh-theme .nav-dropdown-menu a:hover, 
 .sh-theme .ig-dropdown a:hover {
-    background: rgba(30, 58, 138, 0.05);
+    background: rgba(234, 179, 8, 0.05);
 }
 
 /* Background adjustment for sections if needed */
@@ -2002,5 +2002,5 @@ textarea.form-control {
 }
 
 .sh-theme .section-alt {
-    background-color: #F3F4F6;
+    background-color: #FEF9C3;
 }
