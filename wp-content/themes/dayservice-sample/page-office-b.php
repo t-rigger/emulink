@@ -24,7 +24,7 @@ get_header();
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header text-center">
-            <h2 style="color: #1E3A8A;">私たちの3つの強み</h2>
+            <h2>私たちの3つの強み</h2>
             <p>誠実なケアと確かな安心をお届けします</p>
         </div>
 
@@ -114,8 +114,13 @@ get_header();
 
         <div class="swipe-hint">← スワイプして続きを見る</div>
 
+        <!-- 入居要件の補足 -->
+        <div style="background: #FFFBEB; border: 1px solid #FEF3C7; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; font-size: 0.9rem; color: #854D0E;">
+            ※介護保険サービスをご利用の際は、別途「介護保険自己負担分」が必要となります。
+        </div>
+
         <!-- Entrance Fee -->
-        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">入居までの費用</h3>
+        <h3 style="margin-bottom: 1rem; color: var(--color-primary); border-left: 4px solid var(--color-primary); padding-left: 1rem;">入居までの費用</h3>
         <div class="sh-table-wrap">
             <table class="sh-table sh-table-primary">
                 <thead>
@@ -136,7 +141,7 @@ get_header();
         </div>
 
         <!-- Monthly Fee -->
-        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">月額利用料（標準）</h3>
+        <h3 style="margin-bottom: 1rem; color: var(--color-primary); border-left: 4px solid var(--color-primary); padding-left: 1rem;">月額利用料（標準）</h3>
         <div class="sh-table-wrap">
             <table class="sh-table">
                 <thead>
@@ -182,7 +187,7 @@ get_header();
         </div>
 
         <!-- Additional Expenses -->
-        <h3 style="margin-bottom: 1rem; color: #1E3A8A; border-left: 4px solid #1E3A8A; padding-left: 1rem;">その他の実費・加算</h3>
+        <h3 style="margin-bottom: 1rem; color: var(--color-primary); border-left: 4px solid var(--color-primary); padding-left: 1rem;">その他の実費・加算</h3>
         <div class="sh-table-wrap">
             <table class="sh-table">
                 <thead>
@@ -212,6 +217,49 @@ get_header();
                         <td>介護サービス費</td>
                         <td>自己負担分</td>
                         <td>介護保険利用時の1割〜3割負担分</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Care Level Pricing Table -->
+        <h3 style="margin-bottom: 2rem; color: var(--color-primary); border-left: 4px solid var(--color-primary); padding-left: 1rem; margin-top: 3rem;">4. 介護保険自己負担分（月額目安：1割負担の場合）</h3>
+        <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 1.5rem;">
+            ※金額は概算です。地域区分や具体的な加算状況により変動いたします。
+        </p>
+        <div class="sh-table-wrap" style="margin-bottom: 3rem;">
+            <table class="sh-table">
+                <thead>
+                    <tr>
+                        <th style="background: #FEF9C3; color: #854D0E;">要介護度</th>
+                        <th style="background: #FEF9C3; color: #854D0E;">自己負担額（1割）</th>
+                        <th style="background: #FEF9C3; color: #854D0E;">備考</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight: 600;">要介護1</td>
+                        <td>約 16,765 円 〜</td>
+                        <td>身の回りの手伝いが必要な状態</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">要介護2</td>
+                        <td>約 19,705 円 〜</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">要介護3</td>
+                        <td>約 27,048 円 〜</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">要介護4</td>
+                        <td>約 30,938 円 〜</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">要介護5</td>
+                        <td>約 36,217 円 〜</td>
+                        <td>日常生活全般に介助が必要な状態</td>
                     </tr>
                 </tbody>
             </table>
@@ -351,5 +399,101 @@ get_header();
         </div>
     </div>
 </section>
+
+<!-- ========================================
+     Contact Form Section
+======================================== -->
+<section class="section section-alt" id="contact-form">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>シルバーハウスとんぼ中村へのお問い合わせ</h2>
+            <p>入居に関するご相談や見学など、お気軽にご連絡ください</p>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form action="#" method="post">
+                <input type="hidden" name="office" value="シルバーハウスとんぼ中村">
+                
+                <div class="form-group">
+                    <label for="name">お名前 <span class="required">必須</span></label>
+                    <input type="text" id="name" name="name" class="form-control" required placeholder="例：山田 太郎">
+                </div>
+
+                <div class="form-group">
+                    <label for="kana">フリガナ <span class="required">必須</span></label>
+                    <input type="text" id="kana" name="kana" class="form-control" required placeholder="例：ヤマダ タロウ">
+                </div>
+
+                <div class="form-group">
+                    <label for="tel">電話番号 <span class="required">必須</span></label>
+                    <input type="tel" id="tel" name="tel" class="form-control" required placeholder="例：090-1234-5678">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="例：info@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容 <span class="required">必須</span></label>
+                    <textarea id="message" name="message" class="form-control" required placeholder="見学希望やご質問などをご記入ください"></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-submit">送信する</button>
+                    <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">
+                        ※送信処理は現在準備中です。UIのみのデモとなります。
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const lightbox = document.createElement('div');
+    lightbox.id = 'global-lightbox';
+    const closeBtn = document.createElement('div');
+    closeBtn.className = 'lightbox-close';
+    closeBtn.innerHTML = '&times;';
+    lightbox.appendChild(closeBtn);
+    document.body.appendChild(lightbox);
+
+    const images = document.querySelectorAll('.circle-img img, .rec-gallery-item img, .facility-gallery img');
+
+    const closeLightbox = () => {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
+    images.forEach(img => {
+        img.style.cursor = 'zoom-in';
+        img.addEventListener('click', e => {
+            e.preventDefault();
+            e.stopPropagation();
+            lightbox.classList.add('active');
+            const existingImg = lightbox.querySelector('img');
+            if (existingImg) existingImg.remove();
+            const imgEl = document.createElement('img');
+            imgEl.src = img.src;
+            lightbox.appendChild(imgEl);
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    lightbox.addEventListener('click', e => {
+        if (e.target !== e.currentTarget && e.target !== closeBtn) return;
+        closeLightbox();
+    });
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+});
+</script>
 
 <?php get_footer(); ?>
