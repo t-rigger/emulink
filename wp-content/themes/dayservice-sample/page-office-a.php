@@ -145,6 +145,7 @@ get_header();
                 <div class="timeline-content">
                     <div class="rec-header">
                         <h4>レクリエーション</h4>
+                        <span class="rec-hint">写真を見る</span>
                     </div>
                     <p>みんなで楽しめる体操や、手芸、脳トレなど多彩なプログラムをご用意しています。</p>
                     
@@ -700,11 +701,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // ライトボックス用のDOMを生成
     const lightbox = document.createElement('div');
     lightbox.id = 'global-lightbox';
+    
+    // 閉じるボタンの生成
+    const closeBtn = document.createElement('div');
+    closeBtn.className = 'lightbox-close';
+    closeBtn.innerHTML = '&times;';
+    lightbox.appendChild(closeBtn);
+    
     document.body.appendChild(lightbox);
 
-    // クリック可能にする対象の画像を取得（行事カード内とレクギャラリー内の全ての画像）
-    // imgタグだけでなく、背景画像的なものもあるならimgタグをピンポイントで狙う
     const images = document.querySelectorAll('.circle-img img, .rec-gallery-item img');
+
+    // 閉じる処理を共通化
+    const closeLightbox = () => {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    };
 
     images.forEach(img => {
         img.style.cursor = 'zoom-in'; // クリックできることをカーソルで示す
@@ -714,13 +726,14 @@ document.addEventListener("DOMContentLoaded", function() {
             e.stopPropagation();
             
             lightbox.classList.add('active');
+            
+            // 既存の画像を削除
+            const existingImg = lightbox.querySelector('img');
+            if (existingImg) existingImg.remove();
+            
+            // 新しい画像を追加
             const imgEl = document.createElement('img');
             imgEl.src = img.src;
-            
-            // 既存の画像をクリアして追加
-            while (lightbox.firstChild) {
-                lightbox.removeChild(lightbox.firstChild);
-            }
             lightbox.appendChild(imgEl);
             
             // 背景のスクロールを一時停止
@@ -728,12 +741,17 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // ライトボックスの背景をクリックで閉じる
+    // ライトボックスの背景、または閉じるボタンをクリックで閉じる
     lightbox.addEventListener('click', e => {
-        // 画像自体をクリックした場合は閉じない (背景領域のみ)
-        if (e.target !== e.currentTarget) return;
-        lightbox.classList.remove('active');
-        document.body.style.overflow = '';
+        if (e.target !== e.currentTarget && e.target !== closeBtn) return;
+        closeLightbox();
+    });
+
+    // エスケープキーで閉じる
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
     });
 });
 </script>
