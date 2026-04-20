@@ -18,7 +18,6 @@ get_header();
     <div class="hero-deco hero-deco-3"></div>
 
     <div class="hero-content">
-        <span class="hero-label">デイサービス エムリンク株式会社</span>
         <h1>
             <span>笑顔</span>があふれる、<br>
             もうひとつの<span>我が家。</span>

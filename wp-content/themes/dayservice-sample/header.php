@@ -24,14 +24,6 @@
         <!-- Logo -->
         <div class="site-logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="20" cy="20" r="18" fill="#FFF7ED" stroke="#F97316" stroke-width="2"/>
-                    <path d="M14 26C14 26 16 22 20 22C24 22 26 26 26 26" stroke="#F97316" stroke-width="2" stroke-linecap="round"/>
-                    <circle cx="15" cy="17" r="2" fill="#F97316"/>
-                    <circle cx="25" cy="17" r="2" fill="#F97316"/>
-                    <path d="M12 12C12 12 14 10 16 12" stroke="#86EFAC" stroke-width="1.5" stroke-linecap="round"/>
-                    <path d="M24 12C24 12 26 10 28 12" stroke="#86EFAC" stroke-width="1.5" stroke-linecap="round"/>
-                </svg>
                 エムリンク株式会社
             </a>
         </div>
