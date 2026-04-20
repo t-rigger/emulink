@@ -64,54 +64,6 @@ get_header();
 */ ?>
 
 <!-- ========================================
-     Facility Overview Section
-======================================== -->
-<section class="section section-alt">
-    <div class="section-inner fade-in-up">
-        <div class="section-header">
-            <h2>施設概要</h2>
-        </div>
-
-        <table class="company-table">
-            <tbody>
-                <tr>
-                    <th>事業所名</th>
-                    <td>デイサービスとんぼ</td>
-                </tr>
-                <tr>
-                    <th>サービス内容</th>
-                    <td>地域密着型通所介護</td>
-                </tr>
-                <tr>
-                    <th>所在地</th>
-                    <td>〒462-0845 名古屋市北区柳原1-18-8 高野ビル1階</td>
-                </tr>
-                <tr>
-                    <th>連絡先</th>
-                    <td><a href="tel:051-915-3008" style="color: var(--color-primary);">051-915-3008</a></td>
-                </tr>
-                <tr>
-                    <th>営業時間</th>
-                    <td>8:30～17:30（利用時間 9:25～16:00）</td>
-                </tr>
-                <tr>
-                    <th>定休日</th>
-                    <td>土曜日・日曜日、8月13～15日、12月31日～1月3日</td>
-                </tr>
-                <tr>
-                    <th>利用定員</th>
-                    <td>16名</td>
-                </tr>
-                <tr>
-                    <th>設備状況</th>
-                    <td>個浴2槽、エスカルゴ</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-
-<!-- ========================================
      Daily Schedule Section
 ======================================== -->
 <section class="section">
@@ -327,6 +279,54 @@ get_header();
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Facility Overview Section
+======================================== -->
+<section class="section section-alt">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>施設概要</h2>
+        </div>
+
+        <table class="company-table">
+            <tbody>
+                <tr>
+                    <th>事業所名</th>
+                    <td>デイサービスとんぼ</td>
+                </tr>
+                <tr>
+                    <th>サービス内容</th>
+                    <td>地域密着型通所介護</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒462-0845 名古屋市北区柳原1-18-8 高野ビル1階</td>
+                </tr>
+                <tr>
+                    <th>連絡先</th>
+                    <td><a href="tel:051-915-3008" style="color: var(--color-primary);">051-915-3008</a></td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>8:30～17:30（利用時間 9:25～16:00）</td>
+                </tr>
+                <tr>
+                    <th>定休日</th>
+                    <td>土曜日・日曜日、8月13～15日、12月31日～1月3日</td>
+                </tr>
+                <tr>
+                    <th>利用定員</th>
+                    <td>16名</td>
+                </tr>
+                <tr>
+                    <th>設備状況</th>
+                    <td>個浴2槽、エスカルゴ</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </section>
 

@@ -1655,9 +1655,65 @@ textarea.form-control {
         height: 120px; /* スマホなら大きすぎないサイズ */
     }
 }
-@media (max-width: 480px) {
-     .yearly-circle {
-        grid-template-columns: 1fr;
+@media (max-width: 768px) {
+    /* 年間行事: スマホ向け横スクロール */
+    .yearly-circle {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .yearly-circle::-webkit-scrollbar {
+        display: none;
+    }
+    .center-slideshow {
+        flex: 0 0 100%;
+        min-width: 100%;
+        scroll-snap-align: center;
+        order: -1; /* スライドショーを一番左へ */
+    }
+    .circle-item {
+        flex: 0 0 85%;
+        min-width: 280px;
+        scroll-snap-align: center;
+    }
+    /* スマホでは画像やテキストを最初から少し見せるか、ホバー固定時の見栄えを調整 */
+    .circle-img {
+        height: 120px !important;
+        opacity: 1 !important;
+        margin-bottom: 15px !important;
+        border-width: 2px !important;
+    }
+    .circle-card h4 {
+        font-size: 1.2rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    .circle-card p {
+        font-size: 0.9rem !important;
+        line-height: 1.4 !important;
+    }
+
+    /* レクリエーションギャラリー: スマホ向け横スクロール */
+    .rec-gallery {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        scrollbar-width: none;
+    }
+    .rec-gallery::-webkit-scrollbar {
+        display: none;
+    }
+    .rec-gallery-item {
+        flex: 0 0 75%;
+        min-width: 220px;
+        scroll-snap-align: center;
     }
 }
 

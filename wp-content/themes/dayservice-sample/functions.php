@@ -80,10 +80,22 @@ function dayservice_scripts() {
         document.addEventListener("DOMContentLoaded", function() {
             const menuToggle = document.querySelector(".menu-toggle");
             const navLinks = document.querySelector(".nav-links");
+            const navAnchors = document.querySelectorAll(".nav-links a");
+            
             if (menuToggle && navLinks) {
                 menuToggle.addEventListener("click", function() {
                     this.classList.toggle("active");
                     navLinks.classList.toggle("active");
+                });
+                
+                // リンクタップでメニューを閉じる
+                navAnchors.forEach(function(a) {
+                    a.addEventListener("click", function() {
+                        // プルダウントグルは閉じない
+                        if (a.classList.contains("ig-toggle")) return;
+                        menuToggle.classList.remove("active");
+                        navLinks.classList.remove("active");
+                    });
                 });
             }
         });
