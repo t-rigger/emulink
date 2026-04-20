@@ -6,7 +6,7 @@
     <meta name="description" content="エムリンク株式会社 - 笑顔があふれる、もうひとつの我が家。心を込めたおもてなしで、安心のデイサービスをお届けします。">
     <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class( is_page('office-b') ? 'sh-theme' : '' ); ?>>
 <?php wp_body_open(); ?>
 
 <!-- ========================================
