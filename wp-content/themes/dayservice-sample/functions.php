@@ -92,7 +92,7 @@ function dayservice_scripts() {
                 navAnchors.forEach(function(a) {
                     a.addEventListener("click", function() {
                         // プルダウントグルは閉じない
-                        if (a.classList.contains("ig-toggle")) return;
+                        if (a.classList.contains("ig-toggle") || a.classList.contains("nav-dropdown-toggle")) return;
                         menuToggle.classList.remove("active");
                         navLinks.classList.remove("active");
                     });

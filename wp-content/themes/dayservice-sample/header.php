@@ -43,11 +43,20 @@
                     <li><a href="#seasonal-events">年間行事</a></li>
                     <?php endif; ?>
                     <li><a href="#overview">施設概要</a></li>
+                    <li><a href="#price">ご利用料金</a></li>
                 <?php else : ?>
                     <?php $rnp_home_url_prefix = ( is_front_page() || is_home() ) ? '' : esc_url(home_url('/')); ?>
                     <li><a href="<?php echo $rnp_home_url_prefix; ?>#news">お知らせ</a></li>
                     <li><a href="<?php echo $rnp_home_url_prefix; ?>#features">私たちの特徴</a></li>
-                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#office">事業所案内</a></li>
+                    <li class="nav-dropdown">
+                        <a href="<?php echo $rnp_home_url_prefix; ?>#office" class="nav-dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                            事業所案内 ▼
+                        </a>
+                        <ul class="nav-dropdown-menu">
+                            <li><a href="<?php echo esc_url(home_url('/office-a/')); ?>">デイサービスとんぼ</a></li>
+                            <li><a href="<?php echo esc_url(home_url('/office-b/')); ?>">デイサービスB</a></li>
+                        </ul>
+                    </li>
                     <li><a href="<?php echo $rnp_home_url_prefix; ?>#greeting">代表挨拶</a></li>
                     <li><a href="<?php echo $rnp_home_url_prefix; ?>#company">会社概要</a></li>
                 <?php endif; ?>
