@@ -346,6 +346,7 @@ get_header();
             <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1rem;">1. 地域密着型通所介護サービス（1日あたり）</h3>
             
             <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(1) 基本料金（1日あたりの利用料金：7〜8時間未満）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
             <div class="price-table-wrapper" style="margin-bottom: 1rem;">
                 <table class="price-table">
                     <thead>
@@ -396,6 +397,7 @@ get_header();
             </p>
 
             <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(2) 地域密着型通所介護 加算料金（1日あたり／1月あたり）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
             <div class="price-table-wrapper" style="margin-bottom: 1rem;">
                 <table class="price-table">
                     <thead>
@@ -464,6 +466,7 @@ get_header();
             </p>
             
             <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(1) 要支援 1〜2（1月あたりの利用料）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
             <div class="price-table-wrapper" style="margin-bottom: 2.5rem;">
                 <table class="price-table">
                     <thead>
@@ -498,6 +501,7 @@ get_header();
             </div>
 
             <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">④予防介護加算料金</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
             <div class="price-table-wrapper" style="margin-bottom: 1rem;">
                 <table class="price-table">
                     <thead>
@@ -539,6 +543,7 @@ get_header();
 
             <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">3. 自費を頂くもの（介護保険適用外）</h3>
             <p style="font-size: 0.95rem; color: var(--color-text); margin-bottom: 1rem;"><strong>⑤自費を頂くもの</strong></p>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
             <div class="price-table-wrapper" style="margin-bottom: 1rem;">
                 <table class="price-table">
                     <thead>
