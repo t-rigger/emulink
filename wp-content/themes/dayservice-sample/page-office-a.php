@@ -145,7 +145,6 @@ get_header();
                 <div class="timeline-content">
                     <div class="rec-header">
                         <h4>レクリエーション</h4>
-                        <span class="rec-hint">📷 写真を見る</span>
                     </div>
                     <p>みんなで楽しめる体操や、手芸、脳トレなど多彩なプログラムをご用意しています。</p>
                     
@@ -695,5 +694,50 @@ get_header();
         </div>
     </div>
 </section>
+<!-- Lightbox Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // ライトボックス用のDOMを生成
+    const lightbox = document.createElement('div');
+    lightbox.id = 'global-lightbox';
+    document.body.appendChild(lightbox);
+
+    // クリック可能にする対象の画像を取得（行事カード内とレクギャラリー内の全ての画像）
+    // imgタグだけでなく、背景画像的なものもあるならimgタグをピンポイントで狙う
+    const images = document.querySelectorAll('.circle-img img, .rec-gallery-item img');
+
+    images.forEach(img => {
+        img.style.cursor = 'zoom-in'; // クリックできることをカーソルで示す
+        
+        img.addEventListener('click', e => {
+            e.preventDefault(); // 親要素のホバーやその他のイベントを妨げない
+            e.stopPropagation();
+            
+            lightbox.classList.add('active');
+            const imgEl = document.createElement('img');
+            imgEl.src = img.src;
+            
+            // 既存の画像をクリアして追加
+            while (lightbox.firstChild) {
+                lightbox.removeChild(lightbox.firstChild);
+            }
+            lightbox.appendChild(imgEl);
+            
+            // 背景のスクロールを一時停止
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // ライトボックスの背景をクリックで閉じる
+    lightbox.addEventListener('click', e => {
+        // 画像自体をクリックした場合は閉じない (背景領域のみ)
+        if (e.target !== e.currentTarget) return;
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    });
+});
+</script>
+
+</main>
 
 <?php get_footer(); ?>
