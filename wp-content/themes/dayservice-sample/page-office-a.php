@@ -143,8 +143,38 @@ get_header();
             <div class="timeline-item">
                 <div class="timeline-time">14:00</div>
                 <div class="timeline-content">
-                    <h4>レクリエーション</h4>
+                    <div class="rec-header">
+                        <h4>レクリエーション</h4>
+                        <span class="rec-hint">📷 写真を見る</span>
+                    </div>
                     <p>みんなで楽しめる体操や、手芸、脳トレなど多彩なプログラムをご用意しています。</p>
+                    
+                    <div class="rec-gallery-container">
+                        <div class="rec-gallery-wrapper">
+                            <div class="rec-gallery">
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">パターゴルフ</span>
+                                    <div class="img-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-rec-golf.jpg" alt="パターゴルフ"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">麻雀</span>
+                                    <div class="img-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-rec-mahjong.jpg" alt="麻雀"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">名城公園へお出かけ</span>
+                                    <div class="img-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-rec-park.jpg" alt="名城公園へお出かけ"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">お絵かき会</span>
+                                    <div class="img-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-rec-drawing.jpg" alt="お絵かき会"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">五平餅作り</span>
+                                    <div class="img-wrapper"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-rec-goheimochi.jpg" alt="五平餅作り"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="timeline-item">
