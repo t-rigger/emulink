@@ -1655,9 +1655,30 @@ textarea.form-control {
         height: 120px; /* スマホなら大きすぎないサイズ */
     }
 }
+.swipe-hint {
+    display: none;
+}
+
 @media (max-width: 768px) {
+    /* 指標 (スワイプ案内) */
+    .swipe-hint {
+        display: block;
+        text-align: right;
+        font-size: 0.8rem;
+        color: var(--color-primary);
+        margin-bottom: 0.5rem;
+        padding-right: 1rem;
+        animation: swipeAnim 1.5s infinite;
+        font-weight: bold;
+    }
+    @keyframes swipeAnim {
+        0%, 100% { transform: translateX(0); }
+        50% { transform: translateX(-5px); }
+    }
+
     /* 年間行事: スマホ向け横スクロール */
     .yearly-circle {
+        border-radius: 0 !important; /* スマホ時は丸い外枠（クリッピング原因）を無効化 */
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;

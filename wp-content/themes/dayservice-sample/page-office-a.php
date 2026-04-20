@@ -106,6 +106,7 @@ get_header();
                     
                     <div class="rec-gallery-container">
                         <div class="rec-gallery-wrapper">
+                            <div class="swipe-hint">← スワイプして続きを見る</div>
                             <div class="rec-gallery">
                                 <div class="rec-gallery-item">
                                     <span class="rec-title">パターゴルフ</span>
@@ -161,7 +162,8 @@ get_header();
         </div>
 
         <div class="yearly-circle-wrapper">
-            <div class="yearly-circle">
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+        <div class="yearly-circle">
                 <!-- 中央のスライドショー -->
                 <div class="center-slideshow">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real-transparent.png" alt="ロゴ画像" class="slideshow-logo">
