@@ -63,7 +63,7 @@ get_header();
 <!-- ========================================
      Facility Overview Section
 ======================================== -->
-<section class="section section-alt">
+<section class="section section-alt" id="overview">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>施設概要</h2>
@@ -111,7 +111,7 @@ get_header();
 <!-- ========================================
      Daily Schedule Section
 ======================================== -->
-<section class="section">
+<section class="section" id="recreation">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>1日の流れ</h2>
@@ -168,7 +168,7 @@ get_header();
 <!-- ========================================
      Important Documents / Price Section
 ======================================== -->
-<section class="section section-alt">
+<section class="section section-alt" id="price">
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>重要事項説明書・ご利用料金</h2>

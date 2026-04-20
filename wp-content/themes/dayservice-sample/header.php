@@ -36,12 +36,21 @@
                 <span></span>
             </button>
             <ul class="nav-links" id="nav-links">
-                <?php $rnp_home_url_prefix = ( is_front_page() || is_home() ) ? '' : esc_url(home_url('/')); ?>
-                <li><a href="<?php echo $rnp_home_url_prefix; ?>#news">お知らせ</a></li>
-                <li><a href="<?php echo $rnp_home_url_prefix; ?>#features">私たちの特徴</a></li>
-                <li><a href="<?php echo $rnp_home_url_prefix; ?>#office">事業所案内</a></li>
-                <li><a href="<?php echo $rnp_home_url_prefix; ?>#greeting">代表挨拶</a></li>
-                <li><a href="<?php echo $rnp_home_url_prefix; ?>#company">会社概要</a></li>
+                <?php if ( is_page('office-a') || is_page('office-b') ) : ?>
+                    <li><a href="<?php echo esc_url(home_url('/')); ?>" style="font-weight:bold;">← TOPへ戻る</a></li>
+                    <li><a href="#recreation">1日の流れ・レク</a></li>
+                    <?php if ( is_page('office-a') ) : ?>
+                    <li><a href="#seasonal-events">年間行事</a></li>
+                    <?php endif; ?>
+                    <li><a href="#overview">施設概要</a></li>
+                <?php else : ?>
+                    <?php $rnp_home_url_prefix = ( is_front_page() || is_home() ) ? '' : esc_url(home_url('/')); ?>
+                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#news">お知らせ</a></li>
+                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#features">私たちの特徴</a></li>
+                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#office">事業所案内</a></li>
+                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#greeting">代表挨拶</a></li>
+                    <li><a href="<?php echo $rnp_home_url_prefix; ?>#company">会社概要</a></li>
+                <?php endif; ?>
                 
                 <li class="nav-instagram">
                     <a href="#" class="ig-toggle" aria-haspopup="true" aria-expanded="false">
