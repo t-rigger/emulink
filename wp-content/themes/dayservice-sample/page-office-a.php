@@ -20,7 +20,9 @@ get_header();
 
 <!-- ========================================
      Greeting / About Section
+     (代表挨拶は現状非表示にするご要望のためコメントアウト)
 ======================================== -->
+<?php /*
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
@@ -59,6 +61,7 @@ get_header();
         </div>
     </div>
 </section>
+*/ ?>
 
 <!-- ========================================
      Facility Overview Section

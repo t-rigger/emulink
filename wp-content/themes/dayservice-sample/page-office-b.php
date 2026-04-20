@@ -13,14 +13,16 @@ get_header();
 ======================================== -->
 <section class="office-hero" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/hero-office.jpg');">
     <div class="office-hero-content fade-in-up">
-        <h1 style="color: #FFF;">サンプルデイサービスB</h1>
+        <h1 style="color: #FFF;">エムリンクデイサービスB</h1>
         <p style="color: #FFF;">緑に囲まれた穏やかな環境で、心休まる時間を提供いたします。</p>
     </div>
 </section>
 
 <!-- ========================================
      Greeting / About Section
+     (施設長挨拶は現状非表示にするご要望のためコメントアウト)
 ======================================== -->
+<?php /*
 <section class="section">
     <div class="section-inner fade-in-up">
         <div class="section-header">
@@ -45,7 +47,7 @@ get_header();
             <div class="greeting-text">
                 <h3 style="color: #059669;">施設長から皆様へ</h3>
                 <div class="message">
-                    <p>サンプルデイサービスBは、豊かな自然に囲まれた静かな環境の中で、穏やかな時間を過ごしていただけるデイサービスセンターです。</p>
+                    <p>エムリンクデイサービスBは、豊かな自然に囲まれた静かな環境の中で、穏やかな時間を過ごしていただけるデイサービスセンターです。</p>
                     <br>
                     <p>私たちは、利用者様がご自身のペースでゆったりと過ごせるよう、心地よい空間づくりと細やかなサポートを心がけています。広々としたフロアや、季節の花々を楽しめる中庭も当施設の自慢です。</p>
                     <br>
@@ -55,6 +57,8 @@ get_header();
         </div>
     </div>
 </section>
+*/ ?>
+
 
 <!-- ========================================
      Facility Overview Section
@@ -69,7 +73,7 @@ get_header();
             <tbody>
                 <tr>
                     <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">事業所名</th>
-                    <td>サンプルデイサービスB</td>
+                    <td>エムリンクデイサービスB</td>
                 </tr>
                 <tr>
                     <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">サービス内容</th>
@@ -77,7 +81,7 @@ get_header();
                 </tr>
                 <tr>
                     <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">所在地</th>
-                    <td>〒100-0002 東京都千代田区千代田2-2-2 サンプル第2ビル1F</td>
+                    <td>〒100-0002 東京都千代田区千代田2-2-2 エムリンク第2ビル1F</td>
                 </tr>
                 <tr>
                     <th style="color: #059669; background: rgba(5, 150, 105, 0.04);">連絡先</th>
@@ -202,8 +206,8 @@ get_header();
         
         <div style="max-width: 800px; margin: 0 auto;">
             <p style="margin-bottom: 1.5rem; text-align: center;">
-                【電車の場合】 JRサンプル駅より車で約15分<br>
-                【バスの場合】 サンプルバス停より徒歩3分<br>
+                【電車の場合】 JRエムリンク駅より車で約15分<br>
+                【バスの場合】 エムリンクバス停より徒歩3分<br>
                 （専用駐車場10台完備・緑の看板が目印です）
             </p>
             <div class="office-map" style="height: 400px; background: #E5E7EB; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #9CA3AF;">
@@ -225,7 +229,7 @@ get_header();
 
         <div class="contact-form-wrapper" style="border-color: rgba(52, 211, 153, 0.3);">
             <form action="#" method="post">
-                <input type="hidden" name="office" value="サンプルデイサービスB">
+                <input type="hidden" name="office" value="エムリンクデイサービスB">
                 
                 <div class="form-group">
                     <label for="name">お名前 <span class="required" style="background: #059669;">必須</span></label>

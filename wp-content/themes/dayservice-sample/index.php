@@ -18,7 +18,7 @@ get_header();
     <div class="hero-deco hero-deco-3"></div>
 
     <div class="hero-content">
-        <span class="hero-label">デイサービス サンプル株式会社</span>
+        <span class="hero-label">デイサービス エムリンク株式会社</span>
         <h1>
             <span>笑顔</span>があふれる、<br>
             もうひとつの<span>我が家。</span>
@@ -96,7 +96,7 @@ get_header();
     <div class="section-inner fade-in-up">
         <div class="section-header">
             <h2>私たちの特徴</h2>
-            <p>サンプル株式会社が大切にしている3つのこと</p>
+            <p>エムリンク株式会社が大切にしている3つのこと</p>
         </div>
 
         <div class="features-grid">
@@ -188,13 +188,13 @@ get_header();
             <div class="office-card">
                 <a href="<?php echo esc_url(home_url('/office-b/')); ?>" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1;" aria-label="デイサービスBの詳細ページへ"></a>
                 <div class="office-card-header" style="background: linear-gradient(135deg, #059669, #34D399);">
-                    <h3>サンプルデイサービスB</h3>
+                    <h3>エムリンクデイサービスB</h3>
                 </div>
                 <div class="office-card-body">
                     <ul class="office-info">
                         <li>
                             <span class="info-label">住所</span>
-                            <span>〒100-0002 東京都千代田区千代田2-2-2 サンプル第2ビル1F</span>
+                            <span>〒100-0002 東京都千代田区千代田2-2-2 エムリンク第2ビル1F</span>
                         </li>
                         <li>
                             <span class="info-label">電話</span>

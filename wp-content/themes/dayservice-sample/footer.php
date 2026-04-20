@@ -6,7 +6,7 @@
         <div class="footer-grid">
             <!-- Brand -->
             <div class="footer-brand">
-                <div class="footer-logo">サンプル株式会社</div>
+                <div class="footer-logo">エムリンク株式会社</div>
                 <p>笑顔があふれる、もうひとつの我が家。<br>心を込めたおもてなしで、皆さまの毎日に安心と楽しさをお届けします。</p>
             </div>
 
@@ -34,7 +34,7 @@
         </div>
 
         <div class="footer-copyright">
-            <p>&copy; <?php echo date('Y'); ?> サンプル株式会社 All Rights Reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> エムリンク株式会社 All Rights Reserved.</p>
         </div>
     </div>
 </footer>
