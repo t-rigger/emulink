@@ -1665,16 +1665,15 @@ textarea.form-control {
     /* 指標 (スワイプ案内) */
     .swipe-hint {
         display: block;
-        text-align: right;
+        text-align: center;
         font-size: 0.8rem;
         color: var(--color-primary);
         margin-bottom: 0.5rem;
-        padding-right: 1rem;
         animation: swipeAnim 1.5s infinite;
         font-weight: bold;
     }
     @keyframes swipeAnim {
-        0%, 100% { transform: translateX(0); }
+        0%, 100% { transform: translateX(5px); }
         50% { transform: translateX(-5px); }
     }
 
