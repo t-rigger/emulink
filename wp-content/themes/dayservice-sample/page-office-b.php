@@ -230,9 +230,9 @@ get_header();
             <table class="sh-table">
                 <thead>
                     <tr>
-                        <th style="background: #F3EBE0; color: #6B4938;">要介護度</th>
-                        <th style="background: #F3EBE0; color: #6B4938;">自己負担額（1割）</th>
-                        <th style="background: #F3EBE0; color: #6B4938;">備考</th>
+                        <th>要介護度</th>
+                        <th>自己負担額（1割）</th>
+                        <th>備考</th>
                     </tr>
                 </thead>
                 <tbody>
