@@ -115,7 +115,7 @@ get_header();
         <div class="swipe-hint">← スワイプして続きを見る</div>
 
         <!-- 入居要件の補足 -->
-        <div style="background: #FFFBEB; border: 1px solid #FEF3C7; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; font-size: 0.9rem; color: #854D0E;">
+        <div style="background: #FDF8F0; border: 1px solid #EADFC8; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; font-size: 0.9rem; color: #6B4938;">
             ※介護保険サービスをご利用の際は、別途「介護保険自己負担分」が必要となります。
         </div>
 
@@ -230,9 +230,9 @@ get_header();
             <table class="sh-table">
                 <thead>
                     <tr>
-                        <th style="background: #FEF9C3; color: #854D0E;">要介護度</th>
-                        <th style="background: #FEF9C3; color: #854D0E;">自己負担額（1割）</th>
-                        <th style="background: #FEF9C3; color: #854D0E;">備考</th>
+                        <th style="background: #F3EBE0; color: #6B4938;">要介護度</th>
+                        <th style="background: #F3EBE0; color: #6B4938;">自己負担額（1割）</th>
+                        <th style="background: #F3EBE0; color: #6B4938;">備考</th>
                     </tr>
                 </thead>
                 <tbody>
