@@ -14,18 +14,18 @@ Text Domain: dayservice-sample
    Base Reset & Custom Properties
 ======================================== */
 :root {
-  --color-primary: #0EA5E9;
-  --color-primary-light: #38BDF8;
-  --color-primary-dark: #0EA5E9;
+  --color-primary: #F97316;
+  --color-primary-light: #FB923C;
+  --color-primary-dark: #EA580C;
   --color-secondary: #86EFAC;
   --color-secondary-light: #BBF7D0;
   --color-accent: #FB7185;
-  --color-base: #F0F9FF;
-  --color-base-light: #FFFFFF;
+  --color-base: #FFF7ED;
+  --color-base-light: #FFFBEB;
   --color-text: #1E293B;
-  --color-text-light: #4B5563;
+  --color-text-light: #78350F;
   --color-white: #FFFFFF;
-  --color-border: #E5E7EB;
+  --color-border: #FED7AA;
   --font-main: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
   --font-display: 'M PLUS Rounded 1c', 'Noto Sans JP', sans-serif;
 }
@@ -1959,8 +1959,56 @@ textarea.form-control {
     color: #0EA5E9;
 }
 
-/* Background adjustment for sections if needed */
-.section-alt {
+/* --- Silver House Theme Overrides (tonbo-nakamura only) --- */
+.sh-theme {
+    --color-primary: #0EA5E9;
+    --color-primary-light: #38BDF8;
+    --color-primary-dark: #0EA5E9;
+    --color-base: #F0F9FF;
+    --color-base-light: #FFFFFF;
+    --color-text: #1E293B;
+    --color-text-light: #4B5563;
+    --color-border: #E5E7EB;
+}
+
+.sh-theme .site-header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.sh-theme .btn-contact {
+    background: linear-gradient(135deg, #0EA5E9, #38BDF8);
+    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.3);
+}
+
+.sh-theme .btn-contact:hover {
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
+}
+
+.sh-theme .menu-toggle span {
+    background: #0EA5E9;
+}
+
+.sh-theme #splash-screen {
+    background: #FFFFFF;
+}
+
+.sh-theme .nav-dropdown-menu,
+.sh-theme .ig-dropdown {
+    border-color: #E5E7EB;
+}
+
+.sh-theme .nav-dropdown-menu a:hover,
+.sh-theme .ig-dropdown a:hover {
+    background: rgba(14, 165, 233, 0.05);
+}
+
+.sh-theme body,
+.sh-theme {
+    background-color: var(--color-base);
+}
+
+.sh-theme .section-alt {
     background-color: #E0F2FE;
 }
 
