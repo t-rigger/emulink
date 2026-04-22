@@ -14,18 +14,18 @@ Text Domain: dayservice-sample
    Base Reset & Custom Properties
 ======================================== */
 :root {
-  --color-primary: #F97316;
-  --color-primary-light: #FB923C;
-  --color-primary-dark: #EA580C;
+  --color-primary: #0EA5E9;
+  --color-primary-light: #38BDF8;
+  --color-primary-dark: #0EA5E9;
   --color-secondary: #86EFAC;
   --color-secondary-light: #BBF7D0;
   --color-accent: #FB7185;
-  --color-base: #FFF7ED;
-  --color-base-light: #FFFBEB;
+  --color-base: #F0F9FF;
+  --color-base-light: #FFFFFF;
   --color-text: #1E293B;
-  --color-text-light: #78350F;
+  --color-text-light: #4B5563;
   --color-white: #FFFFFF;
-  --color-border: #FED7AA;
+  --color-border: #E5E7EB;
   --font-main: 'Noto Sans JP', 'Hiragino Sans', 'Meiryo', sans-serif;
   --font-display: 'M PLUS Rounded 1c', 'Noto Sans JP', sans-serif;
 }
@@ -136,6 +136,19 @@ body {
   list-style: none;
   gap: 2rem;
   align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .nav-links {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 0.75rem;
+    font-size: 0.95rem;
+  }
 }
 
 .nav-links a {
@@ -1946,58 +1959,8 @@ textarea.form-control {
     color: #0EA5E9;
 }
 
-/* --- Silver House Theme Overrides --- */
-.sh-theme {
-    --color-primary: #0EA5E9;
-    --color-primary-light: #38BDF8;
-    --color-primary-dark: #0EA5E9;
-    --color-base: #F0F9FF;
-    --color-base-light: #FFFFFF;
-    --color-text: #1E293B;
-    --color-text-light: #4B5563;
-    --color-border: #E5E7EB;
-}
-
-.sh-theme .site-header {
-    background: #FFFFFF;
-    border-bottom: 1px solid #E5E7EB;
-}
-
-.sh-theme .btn-contact {
-    background: linear-gradient(135deg, #0EA5E9, #38BDF8);
-    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.3);
-}
-
-.sh-theme .btn-contact:hover {
-    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
-}
-
-.sh-theme .menu-toggle span {
-    background: #0EA5E9;
-}
-
-.sh-theme #splash-screen {
-    background: #FFFFFF;
-}
-
-/* Override dropdowns to be clean white with navy text */
-.sh-theme .nav-dropdown-menu, 
-.sh-theme .ig-dropdown {
-    border-color: #E5E7EB;
-}
-
-.sh-theme .nav-dropdown-menu a:hover, 
-.sh-theme .ig-dropdown a:hover {
-    background: rgba(14, 165, 233, 0.05);
-}
-
 /* Background adjustment for sections if needed */
-.sh-theme body, 
-.sh-theme {
-    background-color: var(--color-base);
-}
-
-.sh-theme .section-alt {
+.section-alt {
     background-color: #E0F2FE;
 }
 

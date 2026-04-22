@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デイサービスとんぼ | エムリンク株式会社</title>
+    <meta name="description" content="デイサービスとんぼ - 地域に根差した温かく安心できる通所介護。名古屋市北区。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../wp-content/themes/dayservice-sample/style.css">
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash-screen">
+    <img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-logo-real-transparent.png" alt="デイサービスとんぼ" class="splash-logo">
+</div>
+
+<!-- Header -->
+<header class="site-header" id="site-header">
+    <div class="header-inner">
+        <div class="site-logo">
+            <a href="../">
+                <img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-logo-real-transparent.png" alt="" class="logo-icon">
+                エムリンク株式会社
+            </a>
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="メニューを開く" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                
+                <li><a href="../" style="font-weight:bold;">← TOPへ戻る</a></li>
+                <li><a href="#recreation">1日の流れ・レク</a></li>
+                <li><a href="#seasonal-events">年間行事</a></li>
+                <li><a href="#overview">施設概要</a></li>
+                <li><a href="#price">ご利用料金</a></li>
+                
+                <li class="nav-instagram">
+                    <a href="#" class="ig-toggle" aria-haspopup="true" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-ig"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        Instagram
+                    </a>
+                    <ul class="ig-dropdown">
+                        <li><a href="https://www.instagram.com/dayservice_tonbo/" target="_blank" rel="noopener noreferrer">デイサービスとんぼ</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact-form" class="btn-contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- ========================================
+     Hero Section
+======================================== -->
+<section class="office-hero" style="background-image: url('../wp-content/themes/dayservice-sample/assets/images/tonbo-hero.jpg');">
+    <div class="office-hero-content fade-in-up">
+        <h1>デイサービスとんぼ</h1>
+        <p>地域に根差した、温かく安心できる場所をご提供します。</p>
+    </div>
+</section>
+
+<!-- ========================================
+     Greeting / About Section
+     (代表挨拶は現状非表示にするご要望のためコメントアウト)
+======================================== -->
+
+
+<!-- ========================================
+     Daily Schedule Section
+======================================== -->
+<section class="section" id="recreation">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>1日の流れ</h2>
+            <p>充実した一日をお過ごしいただけます</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-time">09:25</div>
+                <div class="timeline-content">
+                    <h4>お迎え・到着</h4>
+                    <p>ご自宅まで専用車でお迎えにあがります。施設に到着後、健康チェック（血圧・体温測定等）を行います。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">10:00</div>
+                <div class="timeline-content">
+                    <h4>入浴・個別機能訓練</h4>
+                    <p>順次、ご入浴へご案内します。待ち時間は脳トレプリントに取り組みます。また、機能訓練指導員の指導のもと、お一人おひとりの状態に合わせた機能訓練（コグニサイズ等）を実施します。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">12:00</div>
+                <div class="timeline-content">
+                    <h4>昼食・口腔ケア</h4>
+                    <p>栄養バランスの取れた、温かくておいしい食事をご提供。お食事後は、口腔ケアのお手伝いをいたします。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">14:00</div>
+                <div class="timeline-content">
+                    <div class="rec-header">
+                        <h4>レクリエーション</h4>
+                        <span class="rec-hint">写真を見る</span>
+                    </div>
+                    <p>みんなで楽しめる体操や、手芸、脳トレなど多彩なプログラムをご用意しています。</p>
+                    
+                    <div class="rec-gallery-container">
+                        <div class="rec-gallery-wrapper">
+                            <div class="swipe-hint">← スワイプして続きを見る</div>
+                            <div class="rec-gallery">
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">パターゴルフ</span>
+                                    <div class="img-wrapper"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-rec-golf.jpg" alt="パターゴルフ"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">麻雀</span>
+                                    <div class="img-wrapper"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-rec-mahjong.jpg" alt="麻雀"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">名城公園へお出かけ</span>
+                                    <div class="img-wrapper"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-rec-park.jpg" alt="名城公園へお出かけ"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">お絵かき会</span>
+                                    <div class="img-wrapper"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-rec-drawing.jpg" alt="お絵かき会"></div>
+                                </div>
+                                <div class="rec-gallery-item">
+                                    <span class="rec-title">五平餅作り</span>
+                                    <div class="img-wrapper"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-rec-goheimochi.jpg" alt="五平餅作り"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">15:00</div>
+                <div class="timeline-content">
+                    <h4>おやつ・ティータイム</h4>
+                    <p>美味しいおやつと飲み物で、ほっと一息。他の利用者様との会話も弾む時間です。</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-time">16:00</div>
+                <div class="timeline-content">
+                    <h4>音楽療法・お送り</h4>
+                    <p>音楽に包まれてリラックスしたひとときを。本日もありがとうございました。ご自宅まで安全にお送りいたします。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Seasonal Events Section
+======================================== -->
+<section class="section section-alt" id="seasonal-events">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>年間行事</h2>
+            <p>1年を通して、季節を感じられる様々なイベントを企画しております。</p>
+        </div>
+
+        <div class="yearly-circle-wrapper">
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+        <div class="yearly-circle">
+                <!-- 中央のスライドショー -->
+                <div class="center-slideshow">
+                    <img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-logo-real-transparent.png" alt="ロゴ画像" class="slideshow-logo">
+                    <img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-event-april.jpg" alt="4月のお花見">
+                    <img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-event-dec.jpg" alt="12月のクリスマス会">
+                </div>
+
+                <!-- 1月 -->
+                <div class="circle-item" style="--x: -0.5; --y: 0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">1月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>神社へGO</h4>
+                        <p>新年の健康を願って、近くの神社へ初詣に出かけます。</p>
+                    </div>
+                </div>
+                <!-- 2月 -->
+                <div class="circle-item" style="--x: 0; --y: 1;">
+                    <div class="circle-card">
+                        <div class="circle-marker">2月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>節分豆まき</h4>
+                        <p>「鬼は外、福は内！」力いっぱい豆をまき、無病息災を願います。</p>
+                    </div>
+                </div>
+                <!-- 3月 -->
+                <div class="circle-item" style="--x: 0.5; --y: 0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">3月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>ひな祭り</h4>
+                        <p>華やかなお雛様を飾り、春らしいおやつでお祝いします。</p>
+                    </div>
+                </div>
+                <!-- 4月 -->
+                <div class="circle-item" style="--x: 0.866; --y: 0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">4月</div>
+                        <div class="circle-img"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-event-april.jpg" alt="お花見"></div>
+                        <h4>お花見</h4>
+                        <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
+                    </div>
+                </div>
+                <!-- 5月 -->
+                <div class="circle-item" style="--x: 1; --y: 0;">
+                    <div class="circle-card">
+                        <div class="circle-marker">5月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>端午の節句</h4>
+                        <p>菖蒲湯で芯まで温まり、鯉のぼりを見ながら花を咲かせます。</p>
+                    </div>
+                </div>
+                <!-- 6月 -->
+                <div class="circle-item" style="--x: 0.866; --y: -0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">6月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>あじさい見学</h4>
+                        <p>色鮮やかなあじさいを鑑賞し、梅雨の時期も明るく過ごします。</p>
+                    </div>
+                </div>
+                <!-- 7月 -->
+                <div class="circle-item" style="--x: 0.5; --y: -0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">7月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>七夕まつり</h4>
+                        <p>短冊にそれぞれの願い事を書き、笹の葉に飾り付けを行います。</p>
+                    </div>
+                </div>
+                <!-- 8月 -->
+                <div class="circle-item" style="--x: 0; --y: -1;">
+                    <div class="circle-card">
+                        <div class="circle-marker">8月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>夏祭り・盆踊り</h4>
+                        <p>屋台のおやつやゲームを楽しみ、賑やかな盆踊りで満喫します。</p>
+                    </div>
+                </div>
+                <!-- 9月 -->
+                <div class="circle-item" style="--x: -0.5; --y: -0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">9月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>敬老会お祝い</h4>
+                        <p>皆様の長寿とご健康を祝し、特別な催しやお食事をご用意します。</p>
+                    </div>
+                </div>
+                <!-- 10月 -->
+                <div class="circle-item" style="--x: -0.866; --y: -0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">10月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>秋の大運動会</h4>
+                        <p>紅白に分かれて玉入れなど、楽しい競技で気持ちよく汗を流します。</p>
+                    </div>
+                </div>
+                <!-- 11月 -->
+                <div class="circle-item" style="--x: -1; --y: 0;">
+                    <div class="circle-card">
+                        <div class="circle-marker">11月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>紅葉狩りドライブ</h4>
+                        <p>色づいた木々を車窓から眺めながら秋を感じるドライブへ。</p>
+                    </div>
+                </div>
+                <!-- 12月 -->
+                <div class="circle-item" style="--x: -0.866; --y: 0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">12月</div>
+                        <div class="circle-img"><img src="../wp-content/themes/dayservice-sample/assets/images/tonbo-event-dec.jpg" alt="クリスマス会"></div>
+                        <h4>クリスマス会</h4>
+                        <p>サンタクロースも登場！？ケーキやプレゼント交換で楽しく過ごします。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Facility Overview Section
+======================================== -->
+<section class="section section-alt" id="overview">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>施設概要</h2>
+        </div>
+
+        <table class="company-table">
+            <tbody>
+                <tr>
+                    <th>事業所名</th>
+                    <td>デイサービスとんぼ</td>
+                </tr>
+                <tr>
+                    <th>サービス内容</th>
+                    <td>地域密着型通所介護</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒462-0845 名古屋市北区柳原1-18-8 高野ビル1階</td>
+                </tr>
+                <tr>
+                    <th>連絡先</th>
+                    <td><a href="tel:051-915-3008" style="color: var(--color-primary);">051-915-3008</a></td>
+                </tr>
+                <tr>
+                    <th>営業時間</th>
+                    <td>8:30～17:30（利用時間 9:25～16:00）</td>
+                </tr>
+                <tr>
+                    <th>定休日</th>
+                    <td>土曜日・日曜日、8月13～15日、12月31日～1月3日</td>
+                </tr>
+                <tr>
+                    <th>利用定員</th>
+                    <td>16名</td>
+                </tr>
+                <tr>
+                    <th>設備状況</th>
+                    <td>個浴2槽、エスカルゴ</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- ========================================
+     Price Section
+======================================== -->
+<section class="section" id="price">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>ご利用料金のご案内</h2>
+        </div>
+
+        <div class="price-content" style="max-width: 900px; margin: 0 auto;">
+            
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1rem;">1. 地域密着型通所介護サービス（1日あたり）</h3>
+            
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(1) 基本料金（1日あたりの利用料金：7〜8時間未満）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>要介護度</th>
+                            <th>単位数</th>
+                            <th>利用料金(全額)</th>
+                            <th>自己負担(1割)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>要介護1</td>
+                            <td>753 単位</td>
+                            <td>8,042 円</td>
+                            <td>804 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護2</td>
+                            <td>890 単位</td>
+                            <td>9,505 円</td>
+                            <td>951 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護3</td>
+                            <td>1,032 単位</td>
+                            <td>11,022 円</td>
+                            <td>1,102 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護4</td>
+                            <td>1,172 単位</td>
+                            <td>12,517 円</td>
+                            <td>1,252 円</td>
+                        </tr>
+                        <tr>
+                            <td>要介護5</td>
+                            <td>1,312 単位</td>
+                            <td>14,012 円</td>
+                            <td>1,401 円</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 2.5rem;">
+                ※1単位＝10.68円（名古屋市地域加算を乗じた表示）で計算しています。<br>
+                ※2割負担の方は、1割負担額の2倍、3割負担の方は3倍となります。
+            </p>
+
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(2) 地域密着型通所介護 加算料金（1日あたり／1月あたり）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>加算項目</th>
+                            <th>単位数</th>
+                            <th>自己負担(1割)</th>
+                            <th>自己負担(2割)</th>
+                            <th>自己負担(3割)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>入浴介助体制 (Ⅰ)</td>
+                            <td>40 単位</td>
+                            <td>43 円</td>
+                            <td>85 円</td>
+                            <td>128 円</td>
+                        </tr>
+                        <tr>
+                            <td>個別機能訓練加算 (Ⅰ)イ</td>
+                            <td>56 単位</td>
+                            <td>60 円</td>
+                            <td>120 円</td>
+                            <td>179 円</td>
+                        </tr>
+                        <tr>
+                            <td>個別機能訓練加算 (Ⅱ)</td>
+                            <td>20 単位</td>
+                            <td>21 円</td>
+                            <td>43 円</td>
+                            <td>64 円</td>
+                        </tr>
+                        <tr>
+                            <td>口腔機能向上加算 (Ⅱ)</td>
+                            <td>160 単位</td>
+                            <td>171 円</td>
+                            <td>342 円</td>
+                            <td>513 円</td>
+                        </tr>
+                        <tr>
+                            <td>地域通所介護科学的介護推進体制加算</td>
+                            <td>40 単位</td>
+                            <td>43 円</td>
+                            <td>85 円</td>
+                            <td>128 円</td>
+                        </tr>
+                        <tr>
+                            <td>介護職員等処遇改善加算 (iiロ)<br>(令和8年4月〜)</td>
+                            <td>-</td>
+                            <td colspan="3">所定単位数の ?/1000 加算（1か月あたり）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem;">
+                ※介護職員等処遇改善加算は、基本単位数の % 相当が加算されます。<br>
+                ※2割負担の方は、1割負担額の2倍、3割負担の方は3倍となります。
+            </p>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">2. 予防専門型通所介護</h3>
+            <p style="font-size: 0.95rem; color: var(--color-text); margin-bottom: 1.5rem;">
+                <strong>③基本料金（予防専門型通所介護）</strong><br>
+                保険単位／1単位 ＝ 10.68円<br>
+                <span style="font-size: 0.85rem; color: var(--color-text-light);">（名古屋市地域加算を乗じた表示となっております）</span>
+            </p>
+            
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">(1) 要支援 1〜2（1月あたりの利用料）</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+            <div class="price-table-wrapper" style="margin-bottom: 2.5rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>要支援度</th>
+                            <th>単位数</th>
+                            <th>1月あたりの利用料</th>
+                            <th>自己負担(1割)</th>
+                            <th>自己負担(2割)</th>
+                            <th>自己負担(3割)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>要支援 1</td>
+                            <td>1,798 単位</td>
+                            <td>19,202 円</td>
+                            <td>1,920 円</td>
+                            <td>3,840 円</td>
+                            <td>5,760 円</td>
+                        </tr>
+                        <tr>
+                            <td>要支援 2</td>
+                            <td>3,621 単位</td>
+                            <td>38,672 円</td>
+                            <td>3,867 円</td>
+                            <td>7,734 円</td>
+                            <td>11,601 円</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h4 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--color-text);">④予防介護加算料金</h4>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>加算項目</th>
+                            <th>単位</th>
+                            <th>自己負担(1割)</th>
+                            <th>自己負担(2割)</th>
+                            <th>自己負担(3割)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>口腔機能向上加算(Ⅱ)（1月あたり1回）</td>
+                            <td>160 単位</td>
+                            <td>171 円</td>
+                            <td>342 円</td>
+                            <td>513 円</td>
+                        </tr>
+                        <tr>
+                            <td>通所型独自サービス科学的介護推進体制加算</td>
+                            <td>40 単位</td>
+                            <td>43 円</td>
+                            <td>85 円</td>
+                            <td>128 円</td>
+                        </tr>
+                        <tr>
+                            <td>介護職員等処遇改善加算(iiロ)<br>(令和8年4月〜)</td>
+                            <td>-</td>
+                            <td colspan="3">所定単位数の ?/1000 加算（1か月あたり）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <ul style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem; padding-left: 1.2rem;">
+                <li>※ 高齢者虐待防止措置未実施の場合は、所定単位数より 1/100 減算となります。</li>
+                <li>※ 業務継続計画未策定の場合（令和7年4月1日より適用）、所定単位数より 1/100 減算となります。</li>
+            </ul>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">3. 自費を頂くもの（介護保険適用外）</h3>
+            <p style="font-size: 0.95rem; color: var(--color-text); margin-bottom: 1rem;"><strong>⑤自費を頂くもの</strong></p>
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+            <div class="price-table-wrapper" style="margin-bottom: 1rem;">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>内容</th>
+                            <th>料金</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>食費（おやつ・お茶代）</td>
+                            <td>1食</td>
+                            <td>750 円 / 回</td>
+                        </tr>
+                        <tr>
+                            <td>おむつ代（パンツ）</td>
+                            <td>1枚</td>
+                            <td>150 円</td>
+                        </tr>
+                        <tr>
+                            <td>おむつ代（パット）</td>
+                            <td>1枚</td>
+                            <td>80 円</td>
+                        </tr>
+                        <tr>
+                            <td>サービス提供超過費</td>
+                            <td>30分につき</td>
+                            <td>1,000 円</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: 3rem;">
+                ※他、レク材料・行事費用等、その都度清算させて頂く場合がありますのでご了承ください。（事前に行事内容・料金等をお知らせします。）
+            </p>
+
+            <h3 style="font-size: 1.3rem; color: var(--color-primary); border-bottom: 2px solid var(--color-primary-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">4. 支払い方法</h3>
+            
+            <div style="background: var(--color-white); padding: 2rem; border-radius: 12px; border: 1px solid rgba(254, 215, 170, 0.5); box-shadow: 0 4px 16px rgba(0,0,0,0.03);">
+                <h4 style="font-size: 1.1rem; color: var(--color-text); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--color-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                        <rect x="2" y="5" width="20" height="14" rx="2"/>
+                        <line x1="2" y1="10" x2="22" y2="10"/>
+                    </svg>
+                    支払い方法
+                </h4>
+                <p style="margin-bottom: 0; line-height: 1.6; color: var(--color-text); font-size: 0.95rem;">
+                    原則として口座振替（銀行口座からの自動引き落とし）となります。
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Important Documents Section
+======================================== -->
+<section class="section">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>重要事項説明書</h2>
+            <p>デイサービスとんぼの重要事項説明書は、下記よりPDF形式でご覧いただけます。</p>
+        </div>
+
+        <div class="pdf-download-card">
+            <div class="pdf-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="48" height="48">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10 9 9 9 8 9"/>
+                </svg>
+            </div>
+            <div class="pdf-info">
+                <a href="../wp-content/themes/dayservice-sample/assets/pdf/important-document-a.pdf" class="pdf-link" target="_blank" rel="noopener noreferrer">
+                    重要事項説明書 [PDF]
+                </a>
+                <span class="pdf-meta">※PDFファイルの配置をお待ちください。</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Access Section
+======================================== -->
+<section class="section section-alt">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>アクセス</h2>
+        </div>
+        
+        <div style="max-width: 800px; margin: 0 auto;">
+            <p style="margin-bottom: 2rem; text-align: center; line-height: 1.8;">
+                <strong>【公共交通機関でお越しの場合】</strong><br>
+                地下鉄名城線「名城公園駅」より徒歩6分<br>
+                名鉄瀬戸線「東大手駅」より徒歩3分
+            </p>
+            <p style="margin-bottom: 2rem; text-align: center; line-height: 1.8;">
+                <strong>【お車でお越しの場合】</strong><br>
+                専用駐車場はございません。近隣のコインパーキングをご利用ください。
+            </p>
+            <div class="office-map" style="height: 400px; background: #E5E7EB; border-radius: 12px; display: flex; align-items: center; justify-content: center; color: #9CA3AF;">
+                <span>Google Maps（名古屋市北区柳原1-18-8）準備中</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Contact Form Section
+======================================== -->
+<section class="section section-alt" id="contact-form">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>デイサービスとんぼへのお問い合わせ</h2>
+            <p>見学や体験利用など、お気軽にご連絡ください</p>
+        </div>
+
+        <div class="contact-form-wrapper">
+            <form action="#" method="post">
+                <input type="hidden" name="office" value="デイサービスとんぼ">
+                
+                <div class="form-group">
+                    <label for="name">お名前 <span class="required">必須</span></label>
+                    <input type="text" id="name" name="name" class="form-control" required placeholder="例：山田 太郎">
+                </div>
+
+                <div class="form-group">
+                    <label for="kana">フリガナ <span class="required">必須</span></label>
+                    <input type="text" id="kana" name="kana" class="form-control" required placeholder="例：ヤマダ タロウ">
+                </div>
+
+                <div class="form-group">
+                    <label for="tel">電話番号 <span class="required">必須</span></label>
+                    <input type="tel" id="tel" name="tel" class="form-control" required placeholder="例：090-1234-5678">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="例：info@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">お問い合わせ内容 <span class="required">必須</span></label>
+                    <textarea id="message" name="message" class="form-control" required placeholder="見学希望やご質問などをご記入ください"></textarea>
+                </div>
+
+                <div class="form-submit">
+                    <button type="submit" class="btn-submit">送信する</button>
+                    <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: 1rem;">
+                        ※送信処理は現在準備中です。UIのみのデモとなります。
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Lightbox Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // ライトボックス用のDOMを生成
+    const lightbox = document.createElement('div');
+    lightbox.id = 'global-lightbox';
+    
+    // 閉じるボタンの生成
+    const closeBtn = document.createElement('div');
+    closeBtn.className = 'lightbox-close';
+    closeBtn.innerHTML = '&times;';
+    lightbox.appendChild(closeBtn);
+    
+    document.body.appendChild(lightbox);
+
+    const images = document.querySelectorAll('.circle-img img, .rec-gallery-item img');
+
+    // 閉じる処理を共通化
+    const closeLightbox = () => {
+        lightbox.classList.remove('active');
+        document.body.style.overflow = '';
+    };
+
+    images.forEach(img => {
+        img.style.cursor = 'zoom-in'; // クリックできることをカーソルで示す
+        
+        img.addEventListener('click', e => {
+            e.preventDefault(); // 親要素のホバーやその他のイベントを妨げない
+            e.stopPropagation();
+            
+            lightbox.classList.add('active');
+            
+            // 既存の画像を削除
+            const existingImg = lightbox.querySelector('img');
+            if (existingImg) existingImg.remove();
+            
+            // 新しい画像を追加
+            const imgEl = document.createElement('img');
+            imgEl.src = img.src;
+            lightbox.appendChild(imgEl);
+            
+            // 背景のスクロールを一時停止
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // ライトボックスの背景、または閉じるボタンをクリックで閉じる
+    lightbox.addEventListener('click', e => {
+        if (e.target !== e.currentTarget && e.target !== closeBtn) return;
+        closeLightbox();
+    });
+
+    // エスケープキーで閉じる
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            closeLightbox();
+        }
+    });
+});
+</script>
+
+</main>
+<!-- Footer -->
+<footer class="site-footer" id="contact">
+    <div class="footer-inner">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">エムリンク株式会社</div>
+                <p>笑顔があふれる、もうひとつの我が家。<br>心を込めたおもてなしで、皆さまの毎日に安心と楽しさをお届けします。</p>
+            </div>
+            <div class="footer-links">
+                <h4>サイトマップ</h4>
+                <ul>
+                    <li><a href="../">ホーム</a></li>
+                    <li><a href="../#features">私たちの特徴</a></li>
+                    <li><a href="../#office">事業所案内</a></li>
+                    <li><a href="../#greeting">代表挨拶</a></li>
+                    <li><a href="../#company">会社概要</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>お問い合わせ</h4>
+                <ul>
+                    <li><a href="tel:012-345-6789">012-345-6789</a></li>
+                    <li><a href="mailto:info@sample-dayservice.example.com">info@sample-dayservice.example.com</a></li>
+                    <li style="color: rgba(255,255,255,0.6); font-size: 0.8rem; margin-top: 0.5rem;">受付時間：平日 9:00〜18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 エムリンク株式会社 All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="../wp-content/themes/dayservice-sample/assets/js/splash.js"></script>
+<script>
+window.addEventListener("scroll", function() {
+    const header = document.querySelector(".site-header");
+    if (header) header.classList.toggle("scrolled", window.scrollY > 50);
+});
+document.addEventListener("DOMContentLoaded", function() {
+    // Mobile menu toggle
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener("click", function() {
+            this.classList.toggle("active");
+            navLinks.classList.toggle("active");
+        });
+        navLinks.querySelectorAll("a").forEach(function(a) {
+            a.addEventListener("click", function() {
+                if (a.classList.contains("ig-toggle") || a.classList.contains("nav-dropdown-toggle")) return;
+                menuToggle.classList.remove("active");
+                navLinks.classList.remove("active");
+            });
+        });
+    }
+
+    // Dropdown menus
+    document.querySelectorAll(".nav-dropdown-toggle").forEach(function(toggle) {
+        toggle.addEventListener("click", function(e) {
+            e.preventDefault();
+            const expanded = this.getAttribute("aria-expanded") === "true";
+            this.setAttribute("aria-expanded", !expanded);
+            const menu = this.nextElementSibling;
+            if (menu) menu.classList.toggle("open");
+        });
+    });
+
+    // Instagram dropdown
+    document.querySelectorAll(".ig-toggle").forEach(function(toggle) {
+        toggle.addEventListener("click", function(e) {
+            e.preventDefault();
+            const expanded = this.getAttribute("aria-expanded") === "true";
+            this.setAttribute("aria-expanded", !expanded);
+            const menu = this.nextElementSibling;
+            if (menu) menu.classList.toggle("open");
+        });
+    });
+
+    // Scroll fade-in
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) entry.target.classList.add("visible");
+        });
+    }, { threshold: 0.1 });
+    document.querySelectorAll(".fade-in-up").forEach(function(el) {
+        observer.observe(el);
+    });
+});
+</script>
+</body>
+</html>
