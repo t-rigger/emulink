@@ -22,7 +22,7 @@ Text Domain: dayservice-sample
   --color-accent: #FB7185;
   --color-base: #FFF7ED;
   --color-base-light: #FFFBEB;
-  --color-text: #4E3F30;
+  --color-text: #1E293B;
   --color-text-light: #78350F;
   --color-white: #FFFFFF;
   --color-border: #FED7AA;
@@ -1799,7 +1799,7 @@ textarea.form-control {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(193, 89, 66, 0.5), rgba(217, 108, 82, 0.3)), url('./assets/images/hero-office.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(2, 132, 199, 0.5), rgba(14, 165, 233, 0.3)), url('./assets/images/hero-office.jpg') center/cover no-repeat;
 }
 .sh-hero h1 {
     color: #fff;
@@ -1826,11 +1826,11 @@ textarea.form-control {
     padding: 2.5rem 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    border-top: 4px solid #D96C52;
+    border-top: 4px solid #0EA5E9;
     text-align: center;
 }
 .sh-pillar-card h3 {
-    color: #D96C52;
+    color: #0EA5E9;
     font-size: 1.25rem;
     margin: 1.5rem 0 1rem;
 }
@@ -1844,12 +1844,12 @@ textarea.form-control {
     width: 64px;
     height: 64px;
     margin: 0 auto;
-    background: #FDF8F0;
+    background: #F0F9FF;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D96C52;
+    color: #0EA5E9;
 }
 
 .sh-table-wrap {
@@ -1902,7 +1902,7 @@ textarea.form-control {
     left: -2rem;
     width: 32px;
     height: 32px;
-    background: #D96C52;
+    background: #0EA5E9;
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -1920,7 +1920,7 @@ textarea.form-control {
     border: 1px solid #E5E7EB;
 }
 .sh-step-content h4 {
-    color: #D96C52;
+    color: #0EA5E9;
     margin-bottom: 0.5rem;
 }
 
@@ -1943,17 +1943,17 @@ textarea.form-control {
 }
 .sh-legal-links a:hover {
     background: #E5E7EB;
-    color: #D96C52;
+    color: #0EA5E9;
 }
 
 /* --- Silver House Theme Overrides --- */
 .sh-theme {
-    --color-primary: #D96C52;
-    --color-primary-light: #EFA086;
-    --color-primary-dark: #D96C52;
-    --color-base: #FDF8F0;
+    --color-primary: #0EA5E9;
+    --color-primary-light: #38BDF8;
+    --color-primary-dark: #0EA5E9;
+    --color-base: #F0F9FF;
     --color-base-light: #FFFFFF;
-    --color-text: #4E3F30;
+    --color-text: #1E293B;
     --color-text-light: #4B5563;
     --color-border: #E5E7EB;
 }
@@ -1964,16 +1964,16 @@ textarea.form-control {
 }
 
 .sh-theme .btn-contact {
-    background: linear-gradient(135deg, #D96C52, #EFA086);
-    box-shadow: 0 4px 14px rgba(217, 108, 82, 0.3);
+    background: linear-gradient(135deg, #0EA5E9, #38BDF8);
+    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.3);
 }
 
 .sh-theme .btn-contact:hover {
-    box-shadow: 0 6px 20px rgba(217, 108, 82, 0.4);
+    box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4);
 }
 
 .sh-theme .menu-toggle span {
-    background: #D96C52;
+    background: #0EA5E9;
 }
 
 .sh-theme #splash-screen {
@@ -1988,7 +1988,7 @@ textarea.form-control {
 
 .sh-theme .nav-dropdown-menu a:hover, 
 .sh-theme .ig-dropdown a:hover {
-    background: rgba(217, 108, 82, 0.05);
+    background: rgba(14, 165, 233, 0.05);
 }
 
 /* Background adjustment for sections if needed */
@@ -1998,5 +1998,19 @@ textarea.form-control {
 }
 
 .sh-theme .section-alt {
-    background-color: #F3EBE0;
+    background-color: #E0F2FE;
+}
+
+/* Medical System Grid */
+.medical-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+@media (min-width: 768px) {
+    .medical-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
