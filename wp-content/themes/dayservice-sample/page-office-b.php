@@ -102,6 +102,90 @@ get_header();
     </div>
 </section>
 
+
+
+<!-- ========================================
+     Move-in Conditions Section
+======================================== -->
+<section class="section section-alt" id="conditions">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>ご入居の条件</h2>
+            <p>ご本人様もご家族様も安心してお過ごしいただくために</p>
+        </div>
+        
+        <div style="background: #fff; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.03); border: 1px solid #EADFC8; max-width: 800px; margin: 0 auto;">
+            <ul style="list-style: none; padding: 0; margin: 0; color: #4E3F30; line-height: 1.8;">
+                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.8rem;">
+                    <svg style="flex-shrink: 0; margin-top: 4px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    原則として、要支援・要介護認定（要介護1～5）を受けている方
+                </li>
+                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.8rem;">
+                    <svg style="flex-shrink: 0; margin-top: 4px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    複数名での共同生活に支障がない方
+                </li>
+                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.8rem;">
+                    <svg style="flex-shrink: 0; margin-top: 4px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    著しい自傷・他害の恐れがない方
+                </li>
+                <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.8rem;">
+                    <svg style="flex-shrink: 0; margin-top: 4px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    感染症等の疾患がない方（※詳細はお問い合わせください）
+                </li>
+                <li style="display: flex; align-items: flex-start; gap: 0.8rem;">
+                    <svg style="flex-shrink: 0; margin-top: 4px;" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    お住まいの地域に関わらず、どなたでもご入居をご検討いただけます
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Medical System Section
+======================================== -->
+<section class="section" id="medical">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>医療・看護体制</h2>
+            <p>24時間の見守りと、地域医療との強力な連携ネットワーク</p>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; max-width: 900px; margin: 0 auto;">
+            <!-- Card 1 -->
+            <div style="background: #FDF8F0; padding: 2rem; border-radius: 8px; border-top: 4px solid #D96C52; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                <h3 style="color: #4E3F30; font-size: 1.2rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    日々の健康管理
+                </h3>
+                <p style="color: #6B4938; line-height: 1.6; font-size: 0.95rem;">
+                    毎日のバイタルチェック（体温・血圧・脈拍等）や服薬管理を徹底。小さな体調の変化も見逃さず、健康的な生活をサポートします。
+                </p>
+            </div>
+            <!-- Card 2 -->
+            <div style="background: #FDF8F0; padding: 2rem; border-radius: 8px; border-top: 4px solid #D96C52; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                <h3 style="color: #4E3F30; font-size: 1.2rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M12 14v4"/><path d="M10 16h4"/></svg>
+                    訪問診療・訪問歯科
+                </h3>
+                <p style="color: #6B4938; line-height: 1.6; font-size: 0.95rem;">
+                    地域の協力医療機関と連携し、定期的な往診を実施。通院の手間や負担を軽減し、居室にいながら適切な医療ケアを受けられます。
+                </p>
+            </div>
+            <!-- Card 3 -->
+            <div style="background: #FDF8F0; padding: 2rem; border-radius: 8px; border-top: 4px solid #D96C52; box-shadow: 0 2px 10px rgba(0,0,0,0.02);">
+                <h3 style="color: #4E3F30; font-size: 1.2rem; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D96C52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    24時間 緊急時対応
+                </h3>
+                <p style="color: #6B4938; line-height: 1.6; font-size: 0.95rem;">
+                    夜間もスタッフが常駐し、各居室内の緊急コールに対応。万が一の急変時にも、速やかに協力医療機関の医師へ相談できる体制を整えています。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- ========================================
      Pricing Section
 ======================================== -->
@@ -302,6 +386,139 @@ get_header();
                     <tr><td>タイプ10</td><td>6.12</td><td>1室</td></tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+</section>
+
+<!-- ========================================
+     Seasonal Events Section
+======================================== -->
+<section class="section section-alt" id="seasonal-events">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>年間行事</h2>
+            <p>1年を通して、季節を感じられる様々なイベントを企画しております。</p>
+        </div>
+
+        <div class="yearly-circle-wrapper">
+            <div class="swipe-hint">← スワイプして続きを見る</div>
+        <div class="yearly-circle">
+                <!-- 中央のスライドショー -->
+                <div class="center-slideshow">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-logo-real-transparent.png" alt="ロゴ画像" class="slideshow-logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-april.jpg" alt="4月のお花見">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-dec.jpg" alt="12月のクリスマス会">
+                </div>
+
+                <!-- 1月 -->
+                <div class="circle-item" style="--x: -0.5; --y: 0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">1月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>神社へGO</h4>
+                        <p>新年の健康を願って、近くの神社へ初詣に出かけます。</p>
+                    </div>
+                </div>
+                <!-- 2月 -->
+                <div class="circle-item" style="--x: 0; --y: 1;">
+                    <div class="circle-card">
+                        <div class="circle-marker">2月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>節分豆まき</h4>
+                        <p>「鬼は外、福は内！」力いっぱい豆をまき、無病息災を願います。</p>
+                    </div>
+                </div>
+                <!-- 3月 -->
+                <div class="circle-item" style="--x: 0.5; --y: 0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">3月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>ひな祭り</h4>
+                        <p>華やかなお雛様を飾り、春らしいおやつでお祝いします。</p>
+                    </div>
+                </div>
+                <!-- 4月 -->
+                <div class="circle-item" style="--x: 0.866; --y: 0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">4月</div>
+                        <div class="circle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-april.jpg" alt="お花見"></div>
+                        <h4>お花見</h4>
+                        <p>ぽかぽか陽気の中、満開の桜をみんなで楽しみます。</p>
+                    </div>
+                </div>
+                <!-- 5月 -->
+                <div class="circle-item" style="--x: 1; --y: 0;">
+                    <div class="circle-card">
+                        <div class="circle-marker">5月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>端午の節句</h4>
+                        <p>菖蒲湯で芯まで温まり、鯉のぼりを見ながら花を咲かせます。</p>
+                    </div>
+                </div>
+                <!-- 6月 -->
+                <div class="circle-item" style="--x: 0.866; --y: -0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">6月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>あじさい見学</h4>
+                        <p>色鮮やかなあじさいを鑑賞し、梅雨の時期も明るく過ごします。</p>
+                    </div>
+                </div>
+                <!-- 7月 -->
+                <div class="circle-item" style="--x: 0.5; --y: -0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">7月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>七夕まつり</h4>
+                        <p>短冊にそれぞれの願い事を書き、笹の葉に飾り付けを行います。</p>
+                    </div>
+                </div>
+                <!-- 8月 -->
+                <div class="circle-item" style="--x: 0; --y: -1;">
+                    <div class="circle-card">
+                        <div class="circle-marker">8月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>夏祭り・盆踊り</h4>
+                        <p>屋台のおやつやゲームを楽しみ、賑やかな盆踊りで満喫します。</p>
+                    </div>
+                </div>
+                <!-- 9月 -->
+                <div class="circle-item" style="--x: -0.5; --y: -0.866;">
+                    <div class="circle-card">
+                        <div class="circle-marker">9月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>敬老会お祝い</h4>
+                        <p>皆様の長寿とご健康を祝し、特別な催しやお食事をご用意します。</p>
+                    </div>
+                </div>
+                <!-- 10月 -->
+                <div class="circle-item" style="--x: -0.866; --y: -0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">10月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>秋の大運動会</h4>
+                        <p>紅白に分かれて玉入れなど、楽しい競技で気持ちよく汗を流します。</p>
+                    </div>
+                </div>
+                <!-- 11月 -->
+                <div class="circle-item" style="--x: -1; --y: 0;">
+                    <div class="circle-card">
+                        <div class="circle-marker">11月</div>
+                        <div class="circle-img">画像</div>
+                        <h4>紅葉狩りドライブ</h4>
+                        <p>色づいた木々を車窓から眺めながら秋を感じるドライブへ。</p>
+                    </div>
+                </div>
+                <!-- 12月 -->
+                <div class="circle-item" style="--x: -0.866; --y: 0.5;">
+                    <div class="circle-card">
+                        <div class="circle-marker">12月</div>
+                        <div class="circle-img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/tonbo-event-dec.jpg" alt="クリスマス会"></div>
+                        <h4>クリスマス会</h4>
+                        <p>サンタクロースも登場！？ケーキやプレゼント交換で楽しく過ごします。</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
