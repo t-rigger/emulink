@@ -674,6 +674,7 @@ get_header();
         <div class="ig-posts-grid">
             <div class="ig-post-wrapper">
                 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DWVoa8wgSrg/" data-instgrm-version="14" style="background:transparent; border:0; margin: 0; padding:0; width:100%;"></blockquote>
+                <div class="ig-post-overlay"></div>
             </div>
             
             <div class="ig-post-wrapper">
@@ -685,6 +686,7 @@ get_header();
 
             <div class="ig-post-wrapper">
                 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DOIN8V6AaBH/" data-instgrm-version="14" style="background:transparent; border:0; margin: 0; padding:0; width:100%;"></blockquote>
+                <div class="ig-post-overlay"></div>
             </div>
         </div>
     </div>
