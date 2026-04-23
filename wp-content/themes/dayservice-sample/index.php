@@ -311,4 +311,41 @@ get_header();
     </div>
 </section>
 
+<!-- ========================================
+     Instagram Section
+======================================== -->
+<section class="section" id="instagram">
+    <div class="section-inner fade-in-up">
+        <div class="section-header">
+            <h2>Instagram</h2>
+            <p>日々の様子をInstagramでお届けしています</p>
+        </div>
+
+        <div class="ig-section-grid">
+            <!-- QR & Follow Column -->
+            <div class="ig-follow-card">
+                <a href="https://www.instagram.com/dayservice_tonbo/" target="_blank" rel="noopener noreferrer">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram-qr.jpg" alt="Instagram QRコード @dayservice_tonbo" class="ig-qr-img">
+                </a>
+                <div class="ig-follow-info">
+                    <p class="ig-account-name">@dayservice_tonbo</p>
+                    <p class="ig-follow-text">フォローして最新情報をチェック！</p>
+                    <a href="https://www.instagram.com/dayservice_tonbo/" target="_blank" rel="noopener noreferrer" class="ig-follow-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        Instagramを見る
+                    </a>
+                </div>
+            </div>
+
+            <!-- Embedded Posts Column -->
+            <div class="ig-posts-grid">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DWVoa8wgSrg/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:400px; min-width:280px; padding:0; width:100%;"></blockquote>
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DWAkSdJAUrx/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:400px; min-width:280px; padding:0; width:100%;"></blockquote>
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DOIN8V6AaBH/" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 0; max-width:400px; min-width:280px; padding:0; width:100%;"></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+<script async src="//www.instagram.com/embed.js"></script>
+
 <?php get_footer(); ?>
