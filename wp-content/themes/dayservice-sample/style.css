@@ -1254,6 +1254,8 @@ textarea.form-control {
   padding: 4px 12px;
   border-radius: 20px;
   transition: all 0.3s;
+  cursor: pointer;
+  user-select: none;
 }
 .timeline-item:hover .rec-hint {
   background: var(--color-primary);
@@ -1267,6 +1269,15 @@ textarea.form-control {
 }
 .timeline-item:hover .rec-gallery-container {
   grid-template-rows: 1fr;
+}
+/* Tap-to-open class for mobile */
+.rec-gallery-container.rec-gallery-open {
+  grid-template-rows: 1fr;
+}
+.rec-gallery-open + .rec-hint,
+.rec-gallery-container.rec-gallery-open ~ .rec-hint {
+  background: var(--color-primary);
+  color: var(--color-white);
 }
 
 .rec-gallery-wrapper {

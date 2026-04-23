@@ -763,6 +763,27 @@ document.addEventListener("DOMContentLoaded", function() {
             closeLightbox();
         }
     });
+
+    // 「写真を見る」タップでギャラリーの開閉切り替え (モバイル対応)
+    document.querySelectorAll('.rec-hint').forEach(hint => {
+        hint.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const container = this.closest('.timeline-content').querySelector('.rec-gallery-container');
+            if (container) {
+                container.classList.toggle('rec-gallery-open');
+                // ボタンのスタイルも切り替え
+                if (container.classList.contains('rec-gallery-open')) {
+                    this.style.background = 'var(--color-primary)';
+                    this.style.color = '#fff';
+                    this.textContent = '写真を閉じる';
+                } else {
+                    this.style.background = '';
+                    this.style.color = '';
+                    this.textContent = '写真を見る';
+                }
+            }
+        });
+    });
 });
 </script>
 
