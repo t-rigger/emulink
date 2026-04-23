@@ -2076,6 +2076,14 @@ textarea.form-control {
     border-radius: 12px;
 }
 
+/* Instagram iframe default styling override */
+.ig-post-wrapper iframe.instagram-media {
+    border: none !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+    margin: 0 !important;
+}
+
 .ig-post-overlay {
     position: absolute;
     bottom: 0;
