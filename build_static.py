@@ -104,10 +104,24 @@ def make_header(page_type, home_url, dayservice_url, nakamura_url, theme_rel):
                 {IG_DROPDOWN}
                 <li><a href="#contact-form" class="btn-contact">お問い合わせ</a></li>"""
 
+    # Page-specific splash logo and header logo
+    if page_type == "top":
+        splash_logo = f"{theme_rel}/assets/images/emulink-logo-dragonflies.png"
+        splash_alt = "エムリンク株式会社"
+        header_logo = f"{theme_rel}/assets/images/emulink-logo-dragonflies.png"
+    elif page_type == "dayservice":
+        splash_logo = f"{theme_rel}/assets/images/tonbo-logo-real-transparent.png"
+        splash_alt = "デイサービスとんぼ"
+        header_logo = f"{theme_rel}/assets/images/tonbo-logo-real-transparent.png"
+    else:  # nakamura
+        splash_logo = f"{theme_rel}/assets/images/silverhouse-logo.png"
+        splash_alt = "シルバーハウスとんぼ中村"
+        header_logo = f"{theme_rel}/assets/images/silverhouse-logo.png"
+
     return f"""
 <!-- Splash Screen -->
 <div id="splash-screen">
-    <img src="{theme_rel}/assets/images/tonbo-logo-real-transparent.png" alt="デイサービスとんぼ" class="splash-logo">
+    <img src="{splash_logo}" alt="{splash_alt}" class="splash-logo">
 </div>
 
 <!-- Header -->
@@ -115,7 +129,7 @@ def make_header(page_type, home_url, dayservice_url, nakamura_url, theme_rel):
     <div class="header-inner">
         <div class="site-logo">
             <a href="{home_url}">
-                <img src="{theme_rel}/assets/images/tonbo-logo-real-transparent.png" alt="" class="logo-icon">
+                <img src="{header_logo}" alt="" class="logo-icon">
                 エムリンク株式会社
             </a>
         </div>
