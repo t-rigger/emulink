@@ -74,7 +74,7 @@ get_header();
                     </tr>
                     <tr>
                         <th>所在地</th>
-                        <td>名古屋市中村小鴨町66番地</td>
+                        <td>〒453-0844 愛知県名古屋市中村区小鴨町66番地</td>
                     </tr>
                     <tr>
                         <th>類型</th>
@@ -594,7 +594,7 @@ get_header();
         <div style="max-width: 800px; margin: 0 auto; text-align: center;">
             <p style="margin-bottom: 2rem;">
                 <strong>シルバーハウスとんぼ中村</strong><br>
-                名古屋市中村小鴨町66番地
+                〒453-0844 愛知県名古屋市中村区小鴨町66番地
             </p>
             <div style="background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); text-align: left; margin-bottom: 2rem;">
                 <p><strong>【公共交通機関をご利用の場合】</strong></p>
@@ -603,8 +603,8 @@ get_header();
                     <li>② 市営バス「岩塚本通り五丁目」停留所 下車 徒歩5分</li>
                 </ul>
             </div>
-            <div style="height: 300px; background: #E5E7EB; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #6B7280;">
-                <span>Google Maps 準備中（名古屋市中村小鴨町66番地）</span>
+            <div style="height: 450px; background: #E5E7EB; border-radius: 8px; overflow: hidden;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1d3261.644686415444!2d136.8361009!3d35.1530113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003998791334997%3A0xc36267885b57f49e!2z44CSNDUzLTA4NDQg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5p2R5Yy65bCP6bmo55S677bc77bc!5e0!3m2!1sja!2sjp!4v1713855000000!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
